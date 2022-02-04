@@ -1,10 +1,11 @@
 # Neumorphism
 
 Neumorphism (aka neomorphism) is a relatively new design trend and a term that's gotten a good amount of buzz lately.
+<p>It derives its name from skeumorphism – a way of integrating real-world objects into user interface design.</p>
 <p>Neumorphic design draws from both skeumorphism and flat design by pairing a monochromatic color palette with subtle shadows, while giving a sense of 3-dimensions in the form of buttons and other elements.</p>
 <p> what makes it unique is the game of shadows and shades that Neumorphism uses to create very realistic buttons and objects. It gives the users a distinct feel. </p>
 <br/>
-Well inorder to understand Neumorphism we need understand what is <b>Skeuomorphism</b> and <b>flat designs</b>.<br />
+Well inorder to understand Neumorphism we need understand what is <b>Skeuomorphism</b> and <b>flat designs</b> are.<br />
 <br/>
 <p align="center"><img src ="assets/toggleDark.gif" width ="350px" height="600px" /></p>
 <h2>Skeuomorphism</h2>
@@ -32,7 +33,7 @@ recycle bin icon on the desktop screen and the dial icon on mobile phones. Howev
 
 <p> This is the library reference <a href = "https://github.com/applibgroup/Neumorphism">Here</a> </p>
 
-<p>Let's see some of the features of Neumorphic effect </p>
+<p>Let's see some of the components created with Neumorphic effect </p>
 
 # Alert
 Alert components use to notify user of information
