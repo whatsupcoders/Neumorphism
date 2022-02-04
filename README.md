@@ -42,6 +42,7 @@ Let's see how to create the alert component in HarmonyOS.
 
 <h3> Step 1</h3>
 Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/neumorphism/alert/alert.hml"> here </a> as shown below. 
+
 ```html
 <element name='neualert' src='../../../../../../alert.hml'></element>
 ```
@@ -110,3 +111,6 @@ Similarly we can implement the below list of components.
 <img src="assets/radio.PNG" width="" height=""><br/>
 # switcher
 <img src="assets/switch.PNG" width="" height=""><br/>
+<hr />
+<p> You can find the component implementation on HarmonyOS <a href ="https://github.com/applibgroup/Neumorphism"> here.</a>
+<p> If you haven't tried this unique style of designing then give it a try. With that being said, designers have been coming up with new design ideas that expand on the concept of Neumorphism every day. I am excited to see the intersting components that you can create.</p>
