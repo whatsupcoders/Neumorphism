@@ -1,5 +1,6 @@
 # Neumorphism
 
+
 Neumorphism (aka neomorphism) is a relatively new design trend and a term that's gotten a good amount of buzz lately.
 <p>It derives its name from skeumorphism – a way of integrating real-world objects into user interface design.</p>
 <br/>
@@ -92,32 +93,22 @@ That's it by doing this we will get the below Neumorphic card design.
   <hr/>
 Similarly we can implement the below list of components.
 
-# avatar
-<img src="assets/card.PNG" width="" height=""/><br/>
-# button
-<img src="assets/button.PNG" width="" height=""/><br/>
-# buttons
-<img src="assets/buttons.PNG" width="" height=""/><br/>
-# checkbox
-<img src="assets/checkbox.PNG" width="" height=""/><br/>
-# dropdown
-<img src="assets/dropdown.PNG" width="" height=""/><br/>
-# form
-<img src="assets/form.PNG" width="" height=""/><br/>
-# input
-<img src="assets/input.PNG" width="" height=""/><br/>
-# label
-<img src="assets/label.PNG" width="" height=""/><br/>
-# navbar
-<img src="assets/navbar.PNG" width="" height=""><br/>
-# pagination
-<img src="assets/pagination.PNG" width="" height=""><br/>
-# progress
-<img src="assets/progress.PNG" width="" height=""><br/>
-# radio
-<img src="assets/radio.PNG" width="" height=""><br/>
-# switcher
-<img src="assets/switch.PNG" width="" height=""><br/>
+| Components   | Display |
+| -------------| ------------- |
+| avatar       | <img src="assets/card.PNG" width="" height=""/>  |
+| button       | <img src="assets/button.PNG" width="" height=""/>  |
+| buttons      | <img src="assets/buttons.PNG" width="" height=""/>  |
+| checkbox     | <img src="assets/checkbox.PNG" width="" height=""/>  |
+| dropdown     | <img src="assets/dropdown.PNG" width="" height=""/>  |
+| form         | <img src="assets/form.PNG" width="" height=""/>  |
+| input        | <img src="assets/input.PNG" width="" height=""/>  |
+| label        | <img src="assets/label.PNG" width="" height=""/>  |
+| navbar       | <img src="assets/navbar.PNG" width="" height=""/>  |
+| pagination   | <img src="assets/pagination.PNG" width="" height=""/>  |
+| progress     | <img src="assets/progress.PNG" width="" height=""/>  |
+| radio        | <img src="assets/radio.PNG" width="" height=""/>  |
+| switcher     | <img src="assets/switch.PNG" width="" height=""/>  |
+
 <hr />
 <p> Lets go through some of the usescases and there implementation using Neumorphic library<p>
 <h3>Smart Watch</h3>
@@ -125,5 +116,21 @@ Similarly we can implement the below list of components.
 <br/>
 <br/>
 <p float="left" ><img src ="assets/smartwatch.png" /></p>
+<h3>Smart Home Dark Theme</h3>
+<p></p>
+<br/>
+<br/>
+<p float="left" >
+<img src="assets/smarthome_matepad.png" width="500px" height="">
+<img src="assets/smarthome_phone.png" width="200px" height="">
+</p>
+<h3>Smart Home Light Theme</h3>
+<p></p>
+<br/>
+<br/>
+<p float="left" >
+<img src="assets/livingroom_matepad.png" width="500px" height="">
+<img src="assets/livingroom_phone.png" width="200px" height="">
+</p>
 <p> You can find the component implementation on HarmonyOS <a href ="https://github.com/applibgroup/Neumorphism"> here.</a>
 <p> If you haven't tried this unique style of designing then give it a try. With that being said, designers have been coming up with new design ideas that expand on the concept of Neumorphism every day. I am excited to see the intersting components that you can create.</p>
