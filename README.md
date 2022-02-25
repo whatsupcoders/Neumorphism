@@ -2,12 +2,13 @@
 
 Neumorphism (aka neomorphism) is a relatively new design trend and a term that's gotten a good amount of buzz lately.
 <p>It derives its name from skeumorphism – a way of integrating real-world objects into user interface design.</p>
-<p>Neumorphic design draws from both skeumorphism and flat design by pairing a monochromatic color palette with subtle shadows, while giving a sense of 3-dimensions in the form of buttons and other elements.</p>
-<p> what makes it unique is the game of shadows and shades that Neumorphism uses to create very realistic buttons and objects. It gives the users a distinct feel. </p>
 <br/>
-Well inorder to understand Neumorphism we need understand what is <b>Skeuomorphism</b> and <b>flat designs</b> are.<br />
+Well inorder to understand Neumorphism we need understand what is <b>Skeuomorphism</b> and <b>flat designs</b> 
 <br/>
-<p align="center"><img src ="assets/toggleDark.gif" width ="350px" height="600px" /></p>
+<P> In the below series of image it gives you a evolution of design starting from Skeuomorphism and then the flat designs and finally the Neumorphism.</p>
+<br/>
+<p><img src ="assets/2_Skeumorphic design.jpg" width ="300px" height="450px" />    <img src ="assets/3_Flat design.jpg" width ="300px" height="450px" />    <img src ="assets/1_Neumorphic design.jpg" width ="300px" height="450px" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Skeuomorphism</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Flat design</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Neumorphism</b></p>
 <h2>Skeuomorphism</h2>
 <br/>
 Skeuomorphism is a term used to define an interface that mimics real-world items. to cite you with an example it is like the 
@@ -22,7 +23,13 @@ recycle bin icon on the desktop screen and the dial icon on mobile phones. Howev
 <p align="center"><img src ="assets/flatdesign.jpg" width ="450px" /></p>
 <br/>
 <br/>
-<p align="center"><img src ="assets/theme1.png" width ="350px" height="600px" /></p>
+<h2>Neumorphism</h2>
+<br/>
+<p>Neumorphic design draws from both skeumorphism and flat design by pairing a monochromatic color palette with subtle shadows, while giving a sense of 3-dimensions in the form of buttons and other elements.</p>
+<p> what makes it unique is the game of shadows and shades that Neumorphism uses to create very realistic buttons and objects. It gives the users a distinct feel. </p>
+<br/>
+<br/>
+<p align="center"><img src ="assets/theme1.png" width ="300px" height="450px" /></p>
 <h2> Benefits of Neumorphism</h2>
 <ul>
   <li>It adds 3D feel for real buttons and Visual Freshness.</li>
@@ -112,5 +119,11 @@ Similarly we can implement the below list of components.
 # switcher
 <img src="assets/switch.PNG" width="" height=""><br/>
 <hr />
+<p> Lets go through some of the usescases and there implementation using Neumorphic library<p>
+<h3>Smart Watch</h3>
+<p></p>
+<br/>
+<br/>
+<p float="left" ><img src ="assets/smartwatch.png" /></p>
 <p> You can find the component implementation on HarmonyOS <a href ="https://github.com/applibgroup/Neumorphism"> here.</a>
 <p> If you haven't tried this unique style of designing then give it a try. With that being said, designers have been coming up with new design ideas that expand on the concept of Neumorphism every day. I am excited to see the intersting components that you can create.</p>
