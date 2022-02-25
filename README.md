@@ -93,21 +93,21 @@ That's it by doing this we will get the below Neumorphic card design.
   <hr/>
 Similarly we can implement the below list of components.
 
-| Components   | Display |
-| -------------| ------------- |
-| avatar       | <img src="assets/card.PNG" width="" height=""/>  |
-| button       | <img src="assets/button.PNG" width="" height=""/>  |
-| buttons      | <img src="assets/buttons.PNG" width="" height=""/>  |
-| checkbox     | <img src="assets/checkbox.PNG" width="" height=""/>  |
-| dropdown     | <img src="assets/dropdown.PNG" width="" height=""/>  |
-| form         | <img src="assets/form.PNG" width="" height=""/>  |
-| input        | <img src="assets/input.PNG" width="" height=""/>  |
-| label        | <img src="assets/label.PNG" width="" height=""/>  |
-| navbar       | <img src="assets/navbar.PNG" width="" height=""/>  |
-| pagination   | <img src="assets/pagination.PNG" width="" height=""/>  |
-| progress     | <img src="assets/progress.PNG" width="" height=""/>  |
-| radio        | <img src="assets/radio.PNG" width="" height=""/>  |
-| switcher     | <img src="assets/switch.PNG" width="" height=""/>  |
+| Components   | Display                                            |Properties |
+| -------------| -------------                                      |------------- |
+| <b><a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/avatar">avatar</a></b>       | <img src="assets/card.PNG" width="" height=""/>  |icon, width,height,border
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/button">button </a> </b>     | <img src="assets/button.PNG" width="" height=""/>  |  icon, width,height,border, buttonevent
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/buttons">buttons </a></b>     | <img src="assets/buttons.PNG" width="" height=""/>  |width,height,border, slot
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/checkbox">checkbox </a> </b>    | <img src="assets/checkbox.PNG" width="" height=""/>  | checked,check-event,color 
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/dropdown">dropdown</a> </b>    | <img src="assets/dropdown.PNG" width="" height=""/>  |change-event
+| <b><a href= "https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/form">form </a>   </b>     | <img src="assets/form.PNG" width="" height=""/>  |submit-event,reset-event
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/input">input</a>  </b>      | <img src="assets/input.PNG" width="" height=""/>  |icon , type, maxlength,placeholder 
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/label">label</a> </b>       | <img src="assets/label.PNG" width="" height=""/>  |text,icon
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/navbar">navbar</a>  </b>     | <img src="assets/navbar.PNG" width="" height=""/>  |left-event,middle-event,right-event
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/pagination">pagination</a> </b>  | <img src="assets/pagination.PNG" width="" height=""/>  |color,previous-event,next-event        
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/progress">progress </a> </b>   | <img src="assets/progress.PNG" width="" height=""/>  |progress,width,color
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/radio">radio  </a>  </b>    | <img src="assets/radio.PNG" width="" height=""/>  |checked,check-event                    
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/switcher">switcher</a></b>     | <img src="assets/switch.PNG" width="" height=""/>  |toggle-event
 
 <hr />
 <p> Lets go through some of the usescases and there implementation using Neumorphic library<p>
