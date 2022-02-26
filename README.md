@@ -62,20 +62,101 @@ Similarly we can implement the below list of components.
 <hr />
 <p> Lets go through some of the usescases and there implementation using Neumorphic library<p>
 <h3>Smart Watch</h3>
-<p></p>
+<p> The complete usescase code can be found <a href="https://github.com/applibgroup/Neumorphism_Smart_Watch">here.</a></p>
+<p> The below usescase is a simple Smartwatch implmented using the Neumorphism library and every component displayed in the smartwatch are the neumorphic component like listed below.</p>
+<ul>
+  <li>neutheme</li>
+  <li>neubutton</li>
+  <li>neucard </li>
+ </ul>
 <br/>
 <br/>
-<p float="left" ><img src ="assets/smartwatch.png" /></p>
+<p float="left" ><img src ="assets/smartwatch.png" />   <img src ="assets/smartwatch2.png" /></p>
+
+<p> Inorder to display a simple card with title, subject and  message, below is the code snippet used. </p>
+
+Usage:
+```html
+<neucard if="{{notifications}}" class="footer">
+            <neubutton class="footer_icon">
+                <image src="common/images/snooze.png"></image>
+            </neubutton>
+            <div class="footer_info semi_bold dark_text">
+                <div class="footer_title">
+                    <text>{{notification_title}}</text>
+                </div>
+                <div class="footer_subject">
+                    <text>{{notification_subject}}</text>
+                </div>
+                <div class="message">
+                    <text>{{notification_message}}</text>
+                </div>
+            </div>
+        </neucard>
+```
+
+<p>With the above snippet we can get the below design.</p>
+<img src="assets/neucard.PNG" />
+ <hr/>
+ 
 <h3>Smart Home Dark Theme</h3>
-<p></p>
+<p> The complete usescase code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Darkmode">here.</a></p>
+<p> The below usescase is a simple Living Room Design in Dark mode and it is implmented using the Neumorphism library and every component displayed in the Living Room are the neumorphic component like listed below.</p>
+<ul>
+  <li>neutheme</li>
+  <li>neucard </li>
+  <li>swiper  </li>
+ </ul>
 <br/>
 <br/>
 <p float="left" >
 <img src="assets/smarthome_matepad.png" width="500px" height="">
 <img src="assets/smarthome_phone.png" width="200px" height="">
-</p>
+<p> Inorder to display a simple ring progress bar with plus and minus icons to increase the temperature, below is the code snippet used. </p>
+
+Usage:
+```html
+ <div class="controller">
+                            <div class="minus semi_bold light_text">
+                                <text>.05&deg;C</text>
+                                <neubutton class="minus_button theme_bg" @button-event="decreaseTemp">
+                                        <text>-</text>
+                                </neubutton>
+                            </div>
+                            <div class="level semi_bold light_text">
+                                <text>10&deg;C</text>
+                                <div class="range">
+                                    <div class="curve_bg">
+                                        <div class="progress">
+                                            <progress class="progress_bar theme_text" type="ring" percent="{{(temperature-15)*6}}"></progress>
+                                            <div class="progress_value">
+                                                <div class="progress_value_header semi_bold dark_text">
+                                                    <text>{{temperature}}&deg;C</text>
+                                                </div>
+                                                <div class="progress_value_footer regular light_text">
+                                                    <text>Celcius</text>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="plus semi_bold light_text">
+                                <text>.25&deg;C</text>
+                                <neubutton class="plus_button theme_bg" @button-event="increaseTemp">
+                                        <text>+</text>
+                                </neubutton>
+                            </div>
+                        </div>
+```
+
+<p>With the above snippet we can get the below design.</p>
+<img src="assets/controller.PNG" height="300px" />
+ <hr/>
+ 
 <h3>Smart Home Light Theme</h3>
-<p></p>
+<p> The complete usescase code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Lightmode">here.</a></p>
+<p> Like the above Living room design we have the same Design in Light mode and it is implmented using the Neumorphism library and every component displayed in the Living Room are the neumorphic components.</p>
 <br/>
 <br/>
 <p float="left" >
@@ -83,6 +164,7 @@ Similarly we can implement the below list of components.
 <img src="assets/livingroom_phone.png" width="200px" height="">
 </p>
 <hr />
+
 <p>Let's see some of the components created with Neumorphic effect </p>
 
 # Alert
