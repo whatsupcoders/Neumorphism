@@ -2,11 +2,11 @@
 
 
 Neumorphism (aka neomorphism) is a relatively new design trend and a term that's gotten a good amount of buzz lately.
-<p>It derives its name from skeumorphism – a way of integrating real-world objects into user interface design.</p>
+<p>It derives its name from skeuomorphism  – a way of integrating real-world objects into user interface design.</p>
 <br/>
-Well inorder to understand Neumorphism we need understand what is <b>Skeuomorphism</b> and <b>flat designs</b> 
+Well in order to understand Neumorphism we need understand what is <b>Skeuomorphism</b> and <b>flat designs</b> 
 <br/>
-<P> In the below series of image it gives you a evolution of design starting from Skeuomorphism and then the flat designs and finally the Neumorphism.</p>
+<P> In the below series of image it gives you an evolution of design starting from Skeuomorphism and then the flat designs and finally the Neumorphism.</p>
 <br/>
 <p><img src ="assets/2_Skeumorphic design.jpg" width ="300px" height="450px" />    <img src ="assets/3_Flat design.jpg" width ="300px" height="450px" />    <img src ="assets/1_Neumorphic design.jpg" width ="300px" height="450px" /></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Skeuomorphism</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Flat design</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Neumorphism</b></p>
@@ -26,8 +26,8 @@ recycle bin icon on the desktop screen and the dial icon on mobile phones. Howev
 <br/>
 <h2>Neumorphism</h2>
 <br/>
-<p>Neumorphic design draws from both skeumorphism and flat design by pairing a monochromatic color palette with subtle shadows, while giving a sense of 3-dimensions in the form of buttons and other elements.</p>
-<p> what makes it unique is the game of shadows and shades that Neumorphism uses to create very realistic buttons and objects. It gives the users a distinct feel. </p>
+<p>Neumorphic design draws from both skeuomorphism and flat design by pairing a monochromatic color palette with subtle shadows, while giving a sense of 3-dimensions in the form of buttons and other elements.</p>
+<p> What makes it unique is the game of shadows and shades that Neumorphism uses to create very realistic buttons and objects. It gives the users a distinct feel. </p>
 <br/>
 <br/>
 <p align="center"><img src ="assets/theme1.png" width ="300px" height="450px" /></p>
@@ -35,7 +35,7 @@ recycle bin icon on the desktop screen and the dial icon on mobile phones. Howev
 <ul>
   <li>It adds 3D feel for real buttons and Visual Freshness.</li>
   <li>Overloaded interfaces are bypassed by users.</li>
-  <li>Neumorphic designs remain a timeless classic.</li>
+  <li>Neumorphism designs remain a timeless classic.</li>
   <li>It accelerates the process of conceptualizing, building, testing, and iterating new screens.</li>
 </ul>
 
@@ -60,10 +60,10 @@ Similarly we can implement the below list of components.
 | <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/switcher">switcher</a></b>     | <img src="assets/switch.PNG" width="" height=""/>  |toggle-event
 
 <hr />
-<p> Lets go through some of the usescases and there implementation using Neumorphic library<p>
+<p> Let’s go through some of the uses cases and there implementation using Neumorphism library.<p>
 <h3>Smart Watch</h3>
-<p> The complete usescase code can be found <a href="https://github.com/applibgroup/Neumorphism_Smart_Watch">here.</a></p>
-<p> The below usescase is a simple Smartwatch implmented using the Neumorphism library and every component displayed in the smartwatch are the neumorphic component like listed below.</p>
+<p> The complete uses cases code can be found <a href="https://github.com/applibgroup/Neumorphism_Smart_Watch">here.</a></p>
+<p> The below uses cases is a simple Smartwatch implemented using the Neumorphism library and every component displayed in the smartwatch are the neumorphic component like listed below.</p>
 <ul>
   <li>neutheme</li>
   <li>neubutton</li>
@@ -73,7 +73,7 @@ Similarly we can implement the below list of components.
 <br/>
 <p float="left" ><img src ="assets/smartwatch.png" />   <img src ="assets/smartwatch2.png" /></p>
 
-<p> Inorder to display a simple card with title, subject and  message, below is the code snippet used. </p>
+<p> In order to display a simple card with title, subject and  message, below is the code snippet used. </p>
 
 Usage:
 ```html
@@ -100,8 +100,8 @@ Usage:
  <hr/>
  
 <h3>Smart Home Dark Theme</h3>
-<p> The complete usescase code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Darkmode">here.</a></p>
-<p> The below usescase is a simple Living Room Design in Dark mode and it is implmented using the Neumorphism library and every component displayed in the Living Room are the neumorphic component like listed below.</p>
+<p> The complete uses case code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Darkmode">here.</a></p>
+<p> The below uses case is a simple Living Room Design in Dark mode and it is implemented using the Neumorphism library and every component displayed in the Living Room are the neumorphic component like listed below.</p>
 <ul>
   <li>neutheme</li>
   <li>neucard </li>
@@ -112,7 +112,7 @@ Usage:
 <p float="left" >
 <img src="assets/smarthome_matepad.png" width="500px" height="">
 <img src="assets/smarthome_phone.png" width="200px" height="">
-<p> Inorder to display a simple ring progress bar with plus and minus icons to increase the temperature, below is the code snippet used. </p>
+<p> In order to display a simple ring progress bar with plus and minus icons to increase the temperature, below is the code snippet used. </p>
 
 Usage:
 ```html
@@ -155,8 +155,8 @@ Usage:
  <hr/>
  
 <h3>Smart Home Light Theme</h3>
-<p> The complete usescase code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Lightmode">here.</a></p>
-<p> Like the above Living room design we have the same Design in Light mode and it is implmented using the Neumorphism library and every component displayed in the Living Room are the neumorphic components.</p>
+<p> The complete use case code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Lightmode">here.</a></p>
+<p> Like the above Living room design we have the same Design in Light mode and it is implemented using the Neumorphism library and every component displayed in the Living Room are the neumorphic components.</p>
 <br/>
 <br/>
 <p float="left" >
@@ -179,7 +179,7 @@ Import: the node component and you can refer that from library <a href ="https:/
 <element name='neualert' src='../../../../../../alert.hml'></element>
 ```
 <h3> Step 2</h3>
-<p> now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
@@ -193,7 +193,7 @@ That's it by doing this we will get the below Neumorphic alert design.
 <hr>
 
 # Card
-Now let'se how to implement a card design.
+Now let's how to implement a card design.
 
 <h3> Step 1</h3>
 Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/neumorphism/card/card.hml"> here </a> as shown below. 
@@ -216,4 +216,4 @@ That's it by doing this we will get the below Neumorphic card design.
 <img src="assets/card.PNG" width="" height="">
   <hr/>
 <p> You can find the component implementation on HarmonyOS <a href ="https://github.com/applibgroup/Neumorphism"> here.</a>
-<p> If you haven't tried this unique style of designing then give it a try. With that being said, designers have been coming up with new design ideas that expand on the concept of Neumorphism every day. I am excited to see the intersting components that you can create.</p>
+<p> If you haven't tried this unique style of designing then give it a try. With that being said, designers have been coming up with new design ideas that expand on the concept of Neumorphism every day. I am excited to see the interesting components that you can create.</p>
