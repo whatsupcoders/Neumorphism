@@ -7,7 +7,7 @@ Well in order to understand Neumorphism we need understand what is <b>Skeuomorph
 <br/>
 <P> In the below series of image it gives you an evolution of design starting from Skeuomorphism and then the flat designs and finally the Neumorphism.</p>
 <br/>
-<p><img src ="assets/2_Skeumorphic design.jpg" width ="300px" height="450px" />    <img src ="assets/3_Flat design.jpg" width ="300px" height="450px" />    <img src ="assets/1_Neumorphic design.jpg" width ="300px" height="450px" /></p>
+<p><img src ="assets/2_Skeumorphic design.jpg" width ="250px" height="450px" />  <img src ="assets/3_Flat design.jpg" width ="250px" height="450px" />  <img src ="assets/1_Neumorphic design.jpg" width ="250px" height="450px" /></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Skeuomorphism</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Flat design</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Neumorphism</b></p>
 <h2>Skeuomorphism</h2>
 <br/>
