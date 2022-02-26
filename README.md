@@ -1,6 +1,5 @@
 # Neumorphism
 
-
 Neumorphism (aka neomorphism) is a relatively new design trend and a term that's gotten a good amount of buzz lately.
 <p>It derives its name from skeuomorphism  – a way of integrating real-world objects into user interface design.</p>
 <br/>
@@ -30,7 +29,7 @@ recycle bin icon on the desktop screen and the dial icon on mobile phones. Howev
 <p> What makes it unique is the game of shadows and shades that Neumorphism uses to create very realistic buttons and objects. It gives the users a distinct feel. </p>
 <br/>
 <br/>
-<p align="center"><img src ="assets/theme1.png" width ="300px" height="450px" /></p>
+<p align="center"><img src ="assets/toggleDark.gif" width ="300px" height="450px" /></p>
 <h2> Benefits of Neumorphism</h2>
 <ul>
   <li>It adds 3D feel for real buttons and Visual Freshness.</li>
