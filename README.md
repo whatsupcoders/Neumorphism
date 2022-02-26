@@ -173,7 +173,7 @@ Alert components use to notify user of information
 Let's see how to create the alert component in HarmonyOS.
 
 <h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/neumorphism/alert/alert.hml"> here </a> as shown below. 
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/alert/alert.hml"> here </a> as shown below. 
 
 ```html
 <element name='neualert' src='../../../../../../alert.hml'></element>
@@ -196,7 +196,7 @@ That's it by doing this we will get the below Neumorphic alert design.
 Now let's how to implement a card design.
 
 <h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/neumorphism/card/card.hml"> here </a> as shown below. 
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/card/card.hml"> here </a> as shown below. 
 
 Import:
 ```html
