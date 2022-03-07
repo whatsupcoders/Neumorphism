@@ -2,27 +2,17 @@
 
 Neumorphism (aka neomorphism) is a relatively new design trend and a term that's gotten a good amount of buzz lately.
 <p>It derives its name from skeuomorphism  – a way of integrating real-world objects into user interface design.</p>
+Well in order to understand Neumorphism let's understand what is <b>Skeuomorphism</b> and <b>flat designs</b> first.
 <br/>
-Well in order to understand Neumorphism we need understand what is <b>Skeuomorphism</b> and <b>flat designs</b> 
+<br/>
+<p><a href="https://www.interaction-design.org/literature/topics/skeuomorphism"><b>Skeuomorphism</b></a> is a term used to define an interface that mimics real-world items. to cite you with an example it is like the 
+recycle bin icon on the desktop screen and the dial icon on mobile phones. However these 3-dimensions looking elements started looking unnecessary and made the UI look cluttered and that's when the existence of Flat Design came into existence.</p>
+<p><a href="https://www.interaction-design.org/literature/topics/flat-design"><b>Flat design</b></a> is a user interface design style that uses simple, two-dimensional elements and bright colors and it makes it feel like all the objects are lying on a Single Surface.</p>
 <br/>
 <P> In the below series of image it gives you an evolution of design starting from Skeuomorphism and then the flat designs and finally the Neumorphism.</p>
 <br/>
 <p><img src ="assets/2_Skeumorphic design.jpg" width ="250px" height="450px" />  <img src ="assets/3_Flat design.jpg" width ="250px" height="450px" />  <img src ="assets/1_Neumorphic design.jpg" width ="250px" height="450px" /></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Skeuomorphism</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Flat design</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Neumorphism</b></p>
-<h2>Skeuomorphism</h2>
-<br/>
-Skeuomorphism is a term used to define an interface that mimics real-world items. to cite you with an example it is like the 
-recycle bin icon on the desktop screen and the dial icon on mobile phones. However these 3-dimensions looking elements started looking unnecessary and made the UI look cluttered and that's when the existence of Flat Design came into existence.
-<br/>
-<br/>
-<p align="center"><img src ="assets/banner.jpg" width ="450px" /></p>
-<h2>Flat Design</h2>
-<p>Flat design is a user interface design style that uses simple, two-dimensional elements and bright colors and it makes it feel like all the objects are lying on a Single Surface.</p>
-<br/>
-<br/>
-<p align="center"><img src ="assets/flatdesign.jpg" width ="450px" /></p>
-<br/>
-<br/>
 <h2>Neumorphism</h2>
 <br/>
 <p>Neumorphic design draws from both skeuomorphism and flat design by pairing a monochromatic color palette with subtle shadows, while giving a sense of 3-dimensions in the form of buttons and other elements.</p>
@@ -44,19 +34,19 @@ Similarly we can implement the below list of components.
 
 | Components   | Display                                            |Properties |
 | -------------| -------------                                      |------------- |
-| <b><a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/avatar">avatar</a></b>       | <img src="assets/card.PNG" width="" height=""/>  |icon, width,height,border
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/button">button </a> </b>     | <img src="assets/button.PNG" width="" height=""/>  |  icon, width,height,border, buttonevent
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/buttons">buttons </a></b>     | <img src="assets/buttons.PNG" width="" height=""/>  |width,height,border, slot
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/checkbox">checkbox </a> </b>    | <img src="assets/checkbox.PNG" width="" height=""/>  | checked,check-event,color 
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/dropdown">dropdown</a> </b>    | <img src="assets/dropdown.PNG" width="" height=""/>  |change-event
-| <b><a href= "https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/form">form </a>   </b>     | <img src="assets/form.PNG" width="" height=""/>  |submit-event,reset-event
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/input">input</a>  </b>      | <img src="assets/input.PNG" width="" height=""/>  |icon , type, maxlength,placeholder 
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/label">label</a> </b>       | <img src="assets/label.PNG" width="" height=""/>  |text,icon
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/navbar">navbar</a>  </b>     | <img src="assets/navbar.PNG" width="" height=""/>  |left-event,middle-event,right-event
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/pagination">pagination</a> </b>  | <img src="assets/pagination.PNG" width="" height=""/>  |color,previous-event,next-event        
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/progress">progress </a> </b>   | <img src="assets/progress.PNG" width="" height=""/>  |progress,width,color
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/radio">radio  </a>  </b>    | <img src="assets/radio.PNG" width="" height=""/>  |checked,check-event                    
-| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/switcher">switcher</a></b>     | <img src="assets/switch.PNG" width="" height=""/>  |toggle-event
+| <b><a href ="https://github.com/applibgroup/Neumorphism/blob/main/sample_images/avatar.png">avatar</a></b>       | <img src="assets/card.PNG" width="150" height="100"/>  |icon, width,height,border
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/button">button </a> </b>     | <img src="assets/button.PNG" width="150" height="100"/>  |  icon, width,height,border, buttonevent
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/buttons">buttons </a></b>     | <img src="assets/buttons.PNG" width="150" height="100"/>  |width,height,border, slot
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/checkbox">checkbox </a> </b>    | <img src="assets/checkbox.PNG" width="150" height="100"/>  | checked,check-event,color 
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/dropdown">dropdown</a> </b>    | <img src="assets/dropdown.PNG" width="200" height="100"/>  |change-event
+| <b><a href= "https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/form">form </a>   </b>     | <img src="assets/form.PNG" width="200" height="100"/>  |submit-event,reset-event
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/input">input</a>  </b>      | <img src="assets/input.PNG" width="150" height="100"/>  |icon , type, maxlength,placeholder 
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/label">label</a> </b>       | <img src="assets/label.PNG" width="150" height="100"/>  |text,icon
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/navbar">navbar</a>  </b>     | <img src="assets/navbar.PNG" width="200" height="100"/>  |left-event,middle-event,right-event
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/pagination">pagination</a> </b>  | <img src="assets/pagination.PNG" width="200" height="100"/>  |color,previous-event,next-event        
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/progress">progress </a> </b>   | <img src="assets/progress.PNG" width="200" height="100"/>  |progress,width,color
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/radio">radio  </a>  </b>    | <img src="assets/radio.PNG" width="200" height="100"/>  |checked,check-event                    
+| <b><a href="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/switcher">switcher</a></b>     | <img src="assets/switch.PNG" width="200" height="100"/>  |toggle-event
 
 <hr />
 <p> Let’s go through some of the uses cases and there implementation using Neumorphism library.<p>
