@@ -60,7 +60,7 @@ Similarly we can implement the below list of components.
  </ul>
 <br/>
 <br/>
-<p float="left" ><img src ="assets/smartwatchDesign1.png" />   <img src ="assets/smartwatchDesign2.png" /></p>
+<p float="left" ><img src ="assets/smartwatchDesign1.png" />   <img src ="assets/smartwatchdesign2.png" /></p>
 
 <p> In order to display a simple card with title, subject and  message, below is the code snippet used. </p>
 
@@ -88,9 +88,9 @@ Usage:
 <img src="assets/neucard.PNG" />
  <hr/>
  
-<h3>Smart Home Dark Theme</h3>
+<h3>Smart Home Dark and Light Theme</h3>
 <p> The complete uses case code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Darkmode">here.</a></p>
-<p> The below uses case is a simple Living Room Design in Dark mode and it is implemented using the Neumorphism library and every component displayed in the Living Room are the neumorphic component like listed below.</p>
+<p> The below uses case is a simple Living Room Design in <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Darkmode">Dark mode </a> and <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Lightmode">Light mode</a> and it is implemented using the Neumorphism library and every component displayed in the Living Room are the neumorphic component like listed below.</p>
 <ul>
   <li>neutheme</li>
   <li>neucard </li>
