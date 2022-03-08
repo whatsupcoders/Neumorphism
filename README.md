@@ -99,7 +99,7 @@ Usage:
 <br/>
 <br/>
 <p float="left" >
-<img src="assets/smarthome_matepaddesign.png" width="450px" height=""><img src="assets/livingroom_matepaddesign.png" width="450px" height="">
+<img src="assets/smarthome_matepaddesign.png" width="450px" height=""><img src="assets/livingroom_matepaddesign.png" width="450px" height=""></p>
 <p> In order to display a simple ring progress bar with plus and minus icons to increase the temperature, below is the code snippet used. </p>
 
 Usage:
