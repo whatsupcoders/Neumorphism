@@ -99,8 +99,8 @@ Usage:
 <br/>
 <br/>
 <p float="left" >
-<img src="assets/smarthome_matepad.png" width="500px" height="">
-<img src="assets/smarthome_phone.png" width="200px" height="">
+<img src="assets/smarthome_matepaddesign.png" width="500px" height="">
+<img src="assets/livingroom_matepaddesign.png" width="500px" height="">
 <p> In order to display a simple ring progress bar with plus and minus icons to increase the temperature, below is the code snippet used. </p>
 
 Usage:
@@ -143,14 +143,14 @@ Usage:
 <img src="assets/controller.PNG" height="300px" />
  <hr/>
  
-<h3>Smart Home Light Theme</h3>
+<h3>Smart Home Light and Dark Theme Phone Mode</h3>
 <p> The complete use case code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Lightmode">here.</a></p>
-<p> Like the above Living room design we have the same Design in Light mode and it is implemented using the Neumorphism library and every component displayed in the Living Room are the neumorphic components.</p>
+<p> Like the above Living room design we have the same Design in phone mode for <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Lightmode"> Light mode </a> and <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Darkmode">Dark Mode</a> and it is implemented using the Neumorphism library and every component displayed in the Living Room are the neumorphic components.</p>
 <br/>
 <br/>
-<p float="left" >
-<img src="assets/livingroom_matepad.png" width="500px" height="">
-<img src="assets/livingroom_phone.png" width="200px" height="">
+  <p float="left" >
+<img src="assets/smarthome_phonedesign.png" width="200px" height="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/livingroom_phonedesign.png" width="200px" height="">
 </p>
 <hr />
 
