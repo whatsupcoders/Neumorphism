@@ -157,17 +157,14 @@ Usage:
 
 # Alert
 Alert components use to notify user of information
-
 Let's see how to create the alert component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/alert/alert.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/alert/alert.hml"> here </a> as shown below. 
 
 ```html
 <element name='neualert' src='../../../../../../alert.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+<p>2. Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
@@ -175,6 +172,11 @@ Usage:
   <text>Alert !</text>
 </neualert>
 ```
+ Below are list of properties available.
+  * `icon`
+  * `width, height`
+  * `border`
+  
 That's it by doing this we will get the below Neumorphic alert design.
 
 <img src="assets/alert.PNG" width="" height="">
