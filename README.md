@@ -60,7 +60,7 @@ Similarly we can implement the below list of components.
  </ul>
 <br/>
 <br/>
-<p float="left" ><img src ="assets/smartwatch.png" />   <img src ="assets/smartwatch2.png" /></p>
+<p float="left" ><img src ="assets/smartwatchDesign1.png" />   <img src ="assets/smartwatchDesign2.png" /></p>
 
 <p> In order to display a simple card with title, subject and  message, below is the code snippet used. </p>
 
