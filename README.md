@@ -179,7 +179,7 @@ Usage:
   
 That's it by doing this we will get the below Neumorphic alert design and some variations.
 
-<img src="assets/alert.PNG" width="" height=""> <img src="assets/profile.PNG" width="" height="">
+<img src="assets/alertdesign.PNG" width="" height="">
 <hr>
 
 # Avatar
@@ -473,7 +473,7 @@ Below are list of properties available.
   
 That's it by doing this we will get the below Neumorphic navbar design.
 
-<img src="assets/navbardesign.PNG" width="" height="">
+<img src="assets/navdesign.PNG" width="" height="">
 <hr>
 
 # Pagination
