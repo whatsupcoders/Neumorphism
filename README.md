@@ -639,7 +639,7 @@ Below are list of properties available.
   * `width height`
   * `toggle`
   * `toggle-event`
-  * 
+
 That's it by doing this we will get the below Neumorphic Switcher design.
 
 <img src="assets/switchdesign.PNG" width="" height="">
