@@ -153,7 +153,7 @@ Usage:
 </p>
 <hr />
 
-<p>Let's see some of the components created with Neumorphic effect </p>
+<p>Below are the components created with Neumorphic effect </p>
 
 # Alert
 Alert components use to notify user of information
@@ -180,6 +180,81 @@ That's it by doing this we will get the below Neumorphic alert design.
 <img src="assets/alert.PNG" width="" height="">
 <hr>
 
+# Avatar
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/avatar"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../avatar.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/avatar.PNG" width="" height="">
+<hr>
+
+# Button
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/button"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../button.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/button.PNG" width="" height="">
+<hr>
+
+# Buttons
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/buttons"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../buttons.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/buttons.PNG" width="" height="">
+<hr>
+
 # Card
 Now let's how to implement a card design.
 
@@ -203,5 +278,261 @@ That's it by doing this we will get the below Neumorphic card design.
 
 <img src="assets/card.PNG" width="" height="">
   <hr/>
+
+
+# Checkbox
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/checkbox"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../checkbox.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/checkbox.PNG" width="" height="">
+<hr>
+
+# Dropdown
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/dropdown"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../dropdown.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/dropdown.PNG" width="" height="">
+<hr>
+
+# Form
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/form"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../form.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/form.PNG" width="" height="">
+<hr>
+
+# Input
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/input"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../input.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/input.PNG" width="" height="">
+<hr>
+
+# Label
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/label"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../label.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/label.PNG" width="" height="">
+<hr>
+
+# Navbar
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/navbar"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../navbar.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/navbar.PNG" width="" height="">
+<hr>
+
+# Pagination
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/pagination"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../pagination.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/pagination.PNG" width="" height="">
+<hr>
+
+# Progress
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/progress"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../progress.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/progress.PNG" width="" height="">
+<hr>
+
+# Radio
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/radio"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../radio.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
+  <text>Alert !</text>
+</neualert>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/radio.PNG" width="" height="">
+<hr>
+
+# Switcher
+Alert components use to notify user of information
+
+Let's see how to create the alert component in HarmonyOS.
+
+<h3> Step 1</h3>
+Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/switcher"> here </a> as shown below. 
+
+```html
+<element name='neualert' src='../../../../../../switcher.hml'></element>
+```
+<h3> Step 2</h3>
+<p> Now we need use the tag named "neumorph_switcher" and define the parameters like icon and Text as shown below.
+  
+Usage:
+```html
+  <div class="neumorph_innercontainer neumorph_switcher" style="border-radius: {{border}};" onclick="toggleSwitch">
+            <div if="{{color}}" class="left fill" style=" border-radius: {{border}}; background-color: {{color}};" show="{{left}}"></div>
+            <div class="left fill" show="{{left}}" style=" border-radius: {{border}}; " else></div>
+            <div if="{{color}}" class="right fill" style=" border-radius: {{border}}; background-color: {{color}};" show="{{right}}"></div>
+            <div class="right fill" show="{{right}}" style=" border-radius: {{border}}; " else></div>
+    </div>
+```
+That's it by doing this we will get the below Neumorphic alert design.
+
+<img src="assets/switch.PNG" width="" height="">
+<hr>
+
+
 <p> You can find the component implementation on HarmonyOS <a href ="https://github.com/applibgroup/Neumorphism"> here.</a>
 <p> If you haven't tried this unique style of designing then give it a try. With that being said, designers have been coming up with new design ideas that expand on the concept of Neumorphism every day. I am excited to see the interesting components that you can create.</p>
