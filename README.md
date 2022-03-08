@@ -506,7 +506,7 @@ Below are list of properties available.
   
 That's it by doing this we will get the below Neumorphic pagination design.
 
-<img src="assets/pagination.PNG" width="" height="">
+<img src="assets/paginationdesign.PNG" width="" height="">
 <hr>
 
 # Progress
