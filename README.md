@@ -193,7 +193,7 @@ Let's see how to create the Avatar component in HarmonyOS.
 <element name='neuavatar' src='../../../../../../avatar.hml'></element>
 ```
 
-2. Now we need use the tag named "neuavatar" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neuavatar" and define the parameters like icon shown below.
   
 Usage:
 ```html
@@ -250,7 +250,7 @@ Let's see how to create the buttons component in HarmonyOS.
 <element name='neubuttons' src='../../../../../../buttons.hml'></element>
 ```
 
-2. Now we need use the tag named "neubuttons" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neubuttons" and define the parameters like slots and onclick as shown below.
   
 Usage:
 ```html
@@ -309,7 +309,7 @@ Let's see how to create the checkbox component in HarmonyOS.
 <element name='neucheckbox' src='../../../../../../checkbox.hml'></element>
 ```
 
-2. Now we need use the tag named "neucheckbox" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neucheckbox" and define the parameters like color, width, height, check-event as shown below.
   
 Usage:
 ```html
@@ -336,11 +336,19 @@ Let's see how to create the dropdown component in HarmonyOS.
 ```html
 <element name='neudropdown' src='../../../../../../dropdown.hml'></element>
 ```
-2. Now we need use the tag named "neudropdown" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neudropdown" and define the parameters like change-event option value as shown below.
   
 Usage:
 ```html
-<element name='neudropdown' src='../node_modules/hmos-neumorphism/dropdown/dropdown.hml'></element>
+<neudropdown width="200px" height="50px" border="10px" @change-event="dropdownSelect">
+  <select @change="dropdownSelect">
+    <option value="Item 1">Item 1</option>
+    <option value="Item 2">Item 2</option>
+    <option value="Item 3">Item 3</option>
+    <option value="Item 4">Item 4</option>
+    <option value="Item 5" selected="true">Item 5</option>
+  </select>
+</neudropdown>
 ```
 Below are list of properties available.
   * `width, height`
@@ -362,7 +370,7 @@ Let's see how to create the form component in HarmonyOS.
 ```html
 <element name='neuform' src='../../../../../../form.hml'></element>
 ```
-2. Now we need use the tag named "neuform" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neuform" and define the parameters like neuinput,neubutton, input type and so on as shown below.
   
 Usage:
 ```html
@@ -399,7 +407,7 @@ Let's see how to create the input component in HarmonyOS.
 ```html
 <element name='neualert' src='../../../../../../input.hml'></element>
 ```
-2. Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neualert" and define the parameters like icon, type, placeholder as shown below.
   
 Usage:
 ```html
@@ -427,7 +435,7 @@ Let's see how to create the label component in HarmonyOS.
 <element name='neulabel' src='../../../../../../label.hml'></element>
 ```
 
-2. Now we need use the tag named "neulabel" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neulabel" and define the parameters like icon and text as shown below.
   
 Usage:
 ```html
@@ -455,7 +463,7 @@ Let's see how to create the navbar component in HarmonyOS.
 <element name='neunavbar' src='../../../../../../navbar.hml'></element>
 ```
 
-2.Now we need use the tag named "neunavbar" and define the parameters like icon and Text as shown below.
+2.Now we need use the tag named "neunavbar" and define the parameters like image and text as shown below.
   
 Usage:
 ```html
@@ -486,7 +494,7 @@ Let's see how to create the pagination component in HarmonyOS.
 ```html
 <element name='neupagination' src='../../../../../../pagination.hml'></element>
 ```
-2. Now we need use the tag named "neupagination" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neupagination" and define the parameters like color,next-event and previous-event as shown below.
   
 Usage:
 ```html
@@ -519,7 +527,7 @@ Let's see how to create the Progress component in HarmonyOS.
 ```html
 <element name='neuprogress' src='../../../../../../progress.hml'></element>
 ```
-2. Now we need use the tag named "neuprogress" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neuprogress" and define the parameters like progress value as shown below.
   
 Usage:
 ```html
@@ -547,7 +555,7 @@ Let's see how to create the radio component in HarmonyOS.
 <element name='neuradio' src='../../../../../../radio.hml'></element>
 ```
 
-2. Now we need use the tag named "neuradio" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neuradio" and define the parameters like color, width and check-event as shown below.
   
 Usage:
 ```html
@@ -575,7 +583,7 @@ Let's see how to create the Switcher component in HarmonyOS.
 ```html
 <element name='neuswitcher' src='../../../../../../switcher.hml'></element>
 ```
-2. Now we need use the tag named "neumorph_switcher" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neumorph_switcher" and define the parameters like color, toggle, toggle-event as shown below.
   
 Usage:
 ```html
