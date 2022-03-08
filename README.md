@@ -168,8 +168,11 @@ Let's see how to create the alert component in HarmonyOS.
   
 Usage:
 ```html
-<neualert icon="/heart.png" width="300px" height="60px" border="40px" >
-  <text>Alert !</text>
+<neualert icon="common/icons/heart.png" width="300px" height="60px" border="40px" >
+     <text>Alert</text>
+</neualert>
+<neualert icon="common/icons/user.png" width="300px" height="60px" border="40px" >
+     <text>Profile</text>
 </neualert>
 ```
  Below are list of properties available.
@@ -224,8 +227,12 @@ Let's see how to create the button component in HarmonyOS.
   
 Usage:
 ```html
-<neubutton icon="common/icons/heart.png" width="250px" height="60px" border="50px" @button-event="buttonClick">
-  <text>Button</text>
+<neubutton icon="common/icons/heart.png" width="250px" height="60px" border="50px" onclick="buttonClick">
+    <text>Button</text>
+</neubutton>
+
+<neubutton icon="common/icons/home.png" width="250px" height="60px" border="50px" onclick="buttonClick">
+    <text>Home</text>
 </neubutton>
 ```
 Below are list of properties available.
@@ -255,8 +262,13 @@ Let's see how to create the buttons component in HarmonyOS.
 Usage:
 ```html
 <neubuttons  width="250px" height="60px" border="50px">
-  <button slot="first" onclick="buttonLeftClick">Left</button>
-  <button slot="second" onclick="buttonRightClick">Right</button>
+    <button slot="first">Left</button>
+    <button slot="second">Right</button>
+</neubuttons>
+
+<neubuttons  width="250px" height="60px" border="50px">
+    <button slot="first">On</button>
+    <button slot="second">Off</button>
 </neubuttons>
 ```
 Below are list of properties available.
@@ -313,7 +325,8 @@ Let's see how to create the checkbox component in HarmonyOS.
   
 Usage:
 ```html
-<neucheckbox color="" width="50px" height="50px" border="50px" checked="true" @check-event="checkboxClick"></neucheckbox>
+<neucheckbox color="#0092df" width="50px" height="50px" border="50px" checked="true" @check-event="checkboxClick"></neucheckbox>
+<neucheckbox color="#00dd19" width="50px" height="50px" border="50px" checked="true" @check-event="checkboxClick"></neucheckbox>
 ```
 Below are list of properties available.
   * `width, height`
@@ -341,14 +354,24 @@ Let's see how to create the dropdown component in HarmonyOS.
 Usage:
 ```html
 <neudropdown width="200px" height="50px" border="10px" @change-event="dropdownSelect">
-  <select @change="dropdownSelect">
-    <option value="Item 1">Item 1</option>
-    <option value="Item 2">Item 2</option>
-    <option value="Item 3">Item 3</option>
-    <option value="Item 4">Item 4</option>
-    <option value="Item 5" selected="true">Item 5</option>
-  </select>
-</neudropdown>
+      <select @change="dropdownSelect">
+          <option value="Item 1">Item 1</option>
+          <option value="Item 2">Item 2</option>
+          <option value="Item 3">Item 3</option>
+          <option value="Item 4">Item 4</option>
+          <option value="Item 5" selected="true">Item 5</option>
+      </select>
+  </neudropdown>
+
+  <neudropdown width="200px" height="50px" border="10px" @change-event="dropdownSelect">
+      <select @change="dropdownSelect">
+          <option value="Item 1">Bangalore</option>
+          <option value="Item 2">Chicago</option>
+          <option value="Item 3">Toronto</option>
+          <option value="Item 4">Orlando</option>
+          <option value="Item 5" selected="true">Select a City</option>
+      </select>
+  </neudropdown>
 ```
 Below are list of properties available.
   * `width, height`
@@ -467,11 +490,20 @@ Let's see how to create the navbar component in HarmonyOS.
   
 Usage:
 ```html
-<neunavbar  width="300px" height="50px" border="50px" @right-event="buttonClick" @middle-event="buttonClick" @left-event="buttonClick">
-  <image slot="first" src="common/icons/recent.png" style="width:20px; height: 20px;" ></image>
-  <image slot="second" src="common/icons/home.png" style="width:20px; height: 20px;" ></image>
-  <image slot="third" src="common/icons/return.png" style="width:20px; height: 20px;" ></image>
-</neunavbar>
+<neulabel text="Label" icon="common/icons/heart.png" width="200px" height="50px" border="50px" ></neulabel>
+
+  <neunavbar  width="300px" height="50px" border="50px" @right-event="buttonClick" @middle-event="buttonClick" @left-event="buttonClick">
+      <image slot="first" src="common/icons/recent.png" style="width:20px; height: 20px;" ></image>
+      <image slot="second" src="common/icons/home.png" style="width:20px; height: 20px;" ></image>
+      <image slot="third" src="common/icons/return.png" style="width:20px; height: 20px;" ></image>
+  </neunavbar>
+
+  <neunavbar  width="300px" height="50px" border="50px" @right-event="buttonClick" @middle-event="buttonClick" @left-event="buttonClick">
+      <text slot="first" style="color: #ea7979;" >Home</text>
+      <text slot="second" style="color: #ea7979;" >Profile</text>
+      <text slot="third" style="color: #ea7979;" >Settings</text>
+  </neunavbar>
+
 ```
 Below are list of properties available.
   * `width, height`
@@ -499,11 +531,19 @@ Let's see how to create the pagination component in HarmonyOS.
 Usage:
 ```html
 <neupagination color="" width="300px" height="50px" border="50px"  @previous-event="previousEvent" @next-event="nextEvent">
-  <button>1</button>
-  <button>2</button>
-  <button>3</button>
-  <button>4</button>
-  <button>5</button>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+</neupagination>
+
+<neupagination color="#0092df" width="300px" height="50px" border="50px"  @previous-event="previousEvent" @next-event="nextEvent">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
 </neupagination>
 ```
 Below are list of properties available.
@@ -531,7 +571,9 @@ Let's see how to create the Progress component in HarmonyOS.
   
 Usage:
 ```html
-<neuprogress progress="80%" width="300px" color="" height="20px" border="50px"></neuprogress>
+    <neuprogress progress="80%" width="300px" color="" height="20px" border="50px"></neuprogress>
+    <neuprogress progress="20%" width="300px" color="#04ff00" height="20px" border="50px"></neuprogress>
+    <neuprogress progress="60%" width="300px" color="#ff0000" height="20px" border="50px"></neuprogress>
 ```
 Below are list of properties available.
   * `progress`
@@ -559,8 +601,9 @@ Let's see how to create the radio component in HarmonyOS.
   
 Usage:
 ```html
-<neuradio width="50px" color="" height="50px" border="50px" checked="" @check-event="radioClick"></neuradio>
-
+    <neuradio width="50px" color="" height="50px" border="50px" checked="true" @check-event="radioClick"></neuradio>
+    <neuradio width="50px" color="#0092df" height="50px" border="50px" checked="true" @check-event="radioClick"></neuradio>
+    <neuradio width="50px" color="#00dd19" height="50px" border="50px" checked="true" @check-event="radioClick"></neuradio>
 ```
 Below are list of properties available.
   * `border`
@@ -587,7 +630,9 @@ Let's see how to create the Switcher component in HarmonyOS.
   
 Usage:
 ```html
-<neuswitcher width="60px" color="" height="30px" border="50px" toggle="off" @toggle-event="toggleClick"></neuswitcher>
+    <neuswitcher width="60px" color="#0092df" height="30px" border="50px" toggle="off" @toggle-event="toggleClick"></neuswitcher>
+    <neuswitcher width="60px" color="#00dd19" height="30px" border="50px" toggle="on" @toggle-event="toggleClick"></neuswitcher>
+    <neuswitcher width="60px" color="" height="30px" border="50px" toggle="off" @toggle-event="toggleClick"></neuswitcher>
 ```
 Below are list of properties available.
   * `border`
