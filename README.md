@@ -164,7 +164,7 @@ Let's see how to create the alert component in HarmonyOS.
 ```html
 <element name='neualert' src='../../../../../../alert.hml'></element>
 ```
-<p>2. Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
@@ -177,9 +177,9 @@ Usage:
   * `width, height`
   * `border`
   
-That's it by doing this we will get the below Neumorphic alert design.
+That's it by doing this we will get the below Neumorphic alert design and some variations.
 
-<img src="assets/alert.PNG" width="" height="">
+<img src="assets/alert.PNG" width="" height=""> <img src="assets/profile.PNG" width="" height="">
 <hr>
 
 # Avatar
@@ -187,19 +187,23 @@ Avatar components use to notify user of information
 
 Let's see how to create the Avatar component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/avatar"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/avatar"> here </a> as shown below. 
 
 ```html
 <element name='neuavatar' src='../../../../../../avatar.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neuavatar" and define the parameters like icon and Text as shown below.
+
+2. Now we need use the tag named "neuavatar" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
 <neuavatar icon="common/icons/user.png" width="100px" height="100px" border="50px"></neuavatar>
 ```
+Below are list of properties available.
+  * `icon`
+  * `width, height`
+  * `border`
+  
 That's it by doing this we will get the below Neumorphic avatar design.
 
 <img src="assets/avatar.png" width="" height="">
