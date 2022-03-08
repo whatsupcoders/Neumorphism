@@ -214,14 +214,13 @@ Button components use to notify user of information
 
 Let's see how to create the button component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/button"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/button"> here </a> as shown below. 
 
 ```html
 <element name='neubutton' src='../../../../../../button.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neubutton" and define the parameters like icon and Text as shown below.
+
+2. Now we need use the tag named "neubutton" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
@@ -229,7 +228,13 @@ Usage:
   <text>Button</text>
 </neubutton>
 ```
-That's it by doing this we will get the below Neumorphic alert design.
+Below are list of properties available.
+  * `icon`
+  * `width, height`
+  * `border`
+  * `button-event`
+
+That's it by doing this we will get the below Neumorphic Button design.
 
 <img src="assets/button.PNG" width="" height="">
 <hr>
@@ -239,14 +244,13 @@ Buttons components use to notify user of information
 
 Let's see how to create the buttons component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/buttons"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/buttons"> here </a> as shown below. 
 
 ```html
 <element name='neubuttons' src='../../../../../../buttons.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neubuttons" and define the parameters like icon and Text as shown below.
+
+2. Now we need use the tag named "neubuttons" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
@@ -255,7 +259,13 @@ Usage:
   <button slot="second" onclick="buttonRightClick">Right</button>
 </neubuttons>
 ```
-That's it by doing this we will get the below Neumorphic button design.
+Below are list of properties available.
+  * `icon`
+  * `width, height`
+  * `border`
+  * `slot`
+
+That's it by doing this we will get the below Neumorphic buttons design.
 
 <img src="assets/buttons.PNG" width="" height="">
 <hr>
@@ -263,15 +273,14 @@ That's it by doing this we will get the below Neumorphic button design.
 # Card
 Now let's how to implement a card design.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/card/card.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/card/card.hml"> here </a> as shown below. 
 
 Import:
 ```html
 <element name='neucard' src='../../../../../../card.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neucard" and define the parameters like height, width and border as shown below and a image to display inside the card, you can replace it with text as well.
+
+2. Now we need use the tag named "neucard" and define the parameters like height, width and border as shown below and a image to display inside the card, you can replace it with text as well.
   
 Usage:
 ```html
@@ -279,30 +288,38 @@ Usage:
   <image src="common/placeholder.png" ></image>
 </neucard>
 ```
+Below are list of properties available.
+  * `width, height`
+  * `border`
+  * `image src`
+  
 That's it by doing this we will get the below Neumorphic card design.
 
 <img src="assets/card.PNG" width="" height="">
-  <hr/>
-
+<hr/>
 
 # Checkbox
 Checkbox components use to notify user of information
 
 Let's see how to create the checkbox component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/checkbox"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/checkbox"> here </a> as shown below. 
 
 ```html
 <element name='neucheckbox' src='../../../../../../checkbox.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neucheckbox" and define the parameters like icon and Text as shown below.
+
+2. Now we need use the tag named "neucheckbox" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
 <neucheckbox color="" width="50px" height="50px" border="50px" checked="true" @check-event="checkboxClick"></neucheckbox>
 ```
+  * `width, height`
+  * `border`
+  * `color`
+  * `check-event`
+  
 That's it by doing this we will get the below Neumorphic checkbox design.
 
 <img src="assets/checkbox.PNG" width="" height="">
