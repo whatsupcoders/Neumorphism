@@ -349,7 +349,7 @@ Below are list of properties available.
   
 That's it by doing this we will get the below Neumorphic dropdown design.
 
-<img src="assets/dropdown.PNG" width="" height=""><img src="assets/dropdowndesign.PNG" width="" height="">
+<img src="assets/dropdown.PNG" width="" height="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/dropdowndesign.PNG" width="" height="300px">
 <hr>
 
 # Form
