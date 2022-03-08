@@ -179,7 +179,7 @@ Usage:
   
 That's it by doing this we will get the below Neumorphic alert design and some variations.
 
-<img src="assets/alertdesign.PNG" width="" height="">
+<img src="assets/alertdesign.png" width="" height="">
 <hr>
 
 # Avatar
@@ -236,7 +236,7 @@ Below are list of properties available.
 
 That's it by doing this we will get the below Neumorphic Button design.
 
-<img src="assets/button.PNG" width="" height="">
+<img src="assets/buttondesign.PNG" width="" height="">
 <hr>
 
 # Buttons
@@ -267,7 +267,7 @@ Below are list of properties available.
 
 That's it by doing this we will get the below Neumorphic buttons design.
 
-<img src="assets/buttons.PNG" width="" height="">
+<img src="assets/buttonsdesign.PNG" width="" height="">
 <hr>
 
 # Card
