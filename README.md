@@ -315,6 +315,7 @@ Usage:
 ```html
 <neucheckbox color="" width="50px" height="50px" border="50px" checked="true" @check-event="checkboxClick"></neucheckbox>
 ```
+Below are list of properties available.
   * `width, height`
   * `border`
   * `color`
@@ -330,22 +331,25 @@ Dropdown components use to notify user of information
 
 Let's see how to create the dropdown component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/dropdown"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/dropdown"> here </a> as shown below. 
 
 ```html
 <element name='neudropdown' src='../../../../../../dropdown.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neudropdown" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neudropdown" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
 <element name='neudropdown' src='../node_modules/hmos-neumorphism/dropdown/dropdown.hml'></element>
 ```
+Below are list of properties available.
+  * `width, height`
+  * `border`
+  * `change-event`
+  
 That's it by doing this we will get the below Neumorphic dropdown design.
 
-<img src="assets/dropdown.PNG" width="" height="">
+<img src="assets/dropdown.PNG" width="" height=""><img src="assets/dropdowndesign.PNG" width="" height="">
 <hr>
 
 # Form
@@ -353,14 +357,12 @@ Form components use to notify user of information
 
 Let's see how to create the form component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/form"> here </a> as shown below. 
+1.Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/form"> here </a> as shown below. 
 
 ```html
 <element name='neuform' src='../../../../../../form.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neuform" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neuform" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
@@ -377,7 +379,12 @@ Usage:
  </div>
 </neuform>
 ```
-That's it by doing this we will get the below Neumorphic alert design.
+Below are list of properties available.
+  * `width, height`
+  * `border`
+  * `submit-event`,`reset-event`
+  
+That's it by doing this we will get the below Neumorphic form design.
 
 <img src="assets/form.PNG" width="" height="">
 <hr>
@@ -387,19 +394,23 @@ Input components use to notify user of information
 
 Let's see how to create the input component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/input"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/input"> here </a> as shown below. 
 
 ```html
 <element name='neualert' src='../../../../../../input.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neualert" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
 <neuinput icon="common/icons/user.png" type="text" maxlength="20" placeholder="Input" width="300px" height="50px" border="50px" ></neuinput>
 ```
+Below are list of properties available.
+  * `width, height`
+  * `icon`
+  * `type`,`maxlength`
+  * `placeholder`
+  
 That's it by doing this we will get the below Neumorphic input design.
 
 <img src="assets/input.PNG" width="" height="">
@@ -410,20 +421,24 @@ Label components use to notify user of information
 
 Let's see how to create the label component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/label"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/label"> here </a> as shown below. 
 
 ```html
 <element name='neulabel' src='../../../../../../label.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neulabel" and define the parameters like icon and Text as shown below.
+
+2. Now we need use the tag named "neulabel" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
 <neulabel text="Label" icon="common/icons/heart.png" width="200px" height="50px" border="50px" ></neulabel>
 
 ```
+Below are list of properties available.
+  * `width, height`
+  * `icon`
+  * `text`
+  
 That's it by doing this we will get the below Neumorphic label design.
 
 <img src="assets/label.PNG" width="" height="">
@@ -434,14 +449,13 @@ Navbar components use to notify user of information
 
 Let's see how to create the navbar component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/navbar"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/navbar"> here </a> as shown below. 
 
 ```html
 <element name='neunavbar' src='../../../../../../navbar.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neunavbar" and define the parameters like icon and Text as shown below.
+
+2.Now we need use the tag named "neunavbar" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
@@ -451,6 +465,12 @@ Usage:
   <image slot="third" src="common/icons/return.png" style="width:20px; height: 20px;" ></image>
 </neunavbar>
 ```
+Below are list of properties available.
+  * `width, height`
+  * `right-event`
+  * `middle-event`
+  * `left-event`
+  
 That's it by doing this we will get the below Neumorphic navbar design.
 
 <img src="assets/navbar.PNG" width="" height="">
@@ -461,14 +481,12 @@ Pagination components use to notify user of information
 
 Let's see how to create the pagination component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/pagination"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/pagination"> here </a> as shown below. 
 
 ```html
 <element name='neupagination' src='../../../../../../pagination.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neupagination" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neupagination" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
@@ -480,8 +498,13 @@ Usage:
   <button>5</button>
 </neupagination>
 ```
+Below are list of properties available.
+  * `width, height`
+  * `color`
+  * `previous-event`
+  * `next-event`
+  
 That's it by doing this we will get the below Neumorphic pagination design.
-
 <img src="assets/pagination.PNG" width="" height="">
 <hr>
 
@@ -490,22 +513,26 @@ Progress components use to notify user of information
 
 Let's see how to create the Progress component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/progress"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/progress"> here </a> as shown below. 
 
 ```html
 <element name='neuprogress' src='../../../../../../progress.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neuprogress" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neuprogress" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
 <neuprogress progress="80%" width="300px" color="" height="20px" border="50px"></neuprogress>
 ```
+Below are list of properties available.
+  * `progress`
+  * `width`
+  * `color`
+  * `height, border`
+  
 That's it by doing this we will get the below Neumorphic Progress design.
 
-<img src="assets/progress.PNG" width="" height="">
+<img src="assets/progress.PNG" width="" height=""><img src="assets/progressdesign.PNG" width="" height="">
 <hr>
 
 # Radio
@@ -513,23 +540,28 @@ Radio components use to notify user of information
 
 Let's see how to create the radio component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/radio"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/radio"> here </a> as shown below. 
 
 ```html
 <element name='neuradio' src='../../../../../../radio.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neuradio" and define the parameters like icon and Text as shown below.
+
+2. Now we need use the tag named "neuradio" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
 <neuradio width="50px" color="" height="50px" border="50px" checked="" @check-event="radioClick"></neuradio>
 
 ```
+Below are list of properties available.
+  * `border`
+  * `width height`
+  * `color`
+  * `check-event`
+  
 That's it by doing this we will get the below Neumorphic radio design.
 
-<img src="assets/radio.PNG" width="" height="">
+<img src="assets/radio.PNG" width="" height=""><img src="assets/radiodesign.PNG" width="" height="">
 <hr>
 
 # Switcher
@@ -537,22 +569,26 @@ Switcher components use to notify user of information
 
 Let's see how to create the Switcher component in HarmonyOS.
 
-<h3> Step 1</h3>
-Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/switcher"> here </a> as shown below. 
+1.Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/switcher"> here </a> as shown below. 
 
 ```html
 <element name='neuswitcher' src='../../../../../../switcher.hml'></element>
 ```
-<h3> Step 2</h3>
-<p> Now we need use the tag named "neumorph_switcher" and define the parameters like icon and Text as shown below.
+2. Now we need use the tag named "neumorph_switcher" and define the parameters like icon and Text as shown below.
   
 Usage:
 ```html
 <neuswitcher width="60px" color="" height="30px" border="50px" toggle="off" @toggle-event="toggleClick"></neuswitcher>
 ```
+Below are list of properties available.
+  * `border`
+  * `width height`
+  * `toggle`
+  * `toggle-event`
+  * 
 That's it by doing this we will get the below Neumorphic Switcher design.
 
-<img src="assets/switch.PNG" width="" height="">
+<img src="assets/switch.PNG" width="" height=""><img src="assets/switchdesign.PNG" width="" height="">
 <hr>
 
 
