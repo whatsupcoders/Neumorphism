@@ -323,7 +323,7 @@ Below are list of properties available.
   
 That's it by doing this we will get the below Neumorphic checkbox design.
 
-<img src="assets/checkbox.PNG" width="" height="">
+<img src="assets/checkboxdesign.PNG" width="" height="">
 <hr>
 
 # Dropdown
@@ -473,7 +473,7 @@ Below are list of properties available.
   
 That's it by doing this we will get the below Neumorphic navbar design.
 
-<img src="assets/navbar.PNG" width="" height="">
+<img src="assets/navbardesign.PNG" width="" height="">
 <hr>
 
 # Pagination
