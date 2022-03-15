@@ -159,7 +159,7 @@ Usage:
 Alert components use to notify user of information
 Let's see how to create the alert component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/alert/alert.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Alert/blob/main/neumorph_alert/alert/alert.hml"> here </a> as shown below. 
 
 ```html
 <element name='neualert' src='../../../../../../alert.hml'></element>
@@ -190,7 +190,7 @@ Avatar components use to notify user of information
 
 Let's see how to create the Avatar component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/avatar"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Card/blob/main/neumorph_card/avatar/avatar.hml"> here </a> as shown below. 
 
 ```html
 <element name='neuavatar' src='../../../../../../avatar.hml'></element>
@@ -217,7 +217,7 @@ Button components use to notify user of information
 
 Let's see how to create the button component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/button"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Buttons/blob/main/neumorph_buttons/button/button.hml"> here </a> as shown below. 
 
 ```html
 <element name='neubutton' src='../../../../../../button.hml'></element>
@@ -251,7 +251,7 @@ Buttons components use to notify user of information
 
 Let's see how to create the buttons component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/buttons"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Buttons/blob/main/neumorph_buttons/buttons/buttons.hml"> here </a> as shown below. 
 
 ```html
 <element name='neubuttons' src='../../../../../../buttons.hml'></element>
@@ -285,7 +285,7 @@ That's it by doing this we will get the below Neumorphic buttons design.
 # Card
 Now let's how to implement a card design.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/blob/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/card/card.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Card/blob/main/neumorph_card/card/card.hml"> here </a> as shown below. 
 
 Import:
 ```html
@@ -315,7 +315,7 @@ Checkbox components use to notify user of information
 
 Let's see how to create the checkbox component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/checkbox"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/checkbox/checkbox.hml"> here </a> as shown below. 
 
 ```html
 <element name='neucheckbox' src='../../../../../../checkbox.hml'></element>
@@ -388,7 +388,7 @@ Form components use to notify user of information
 
 Let's see how to create the form component in HarmonyOS.
 
-1.Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/form"> here </a> as shown below. 
+1.Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form/blob/main/neumorph_form/form/form.hml"> here </a> as shown below. 
 
 ```html
 <element name='neuform' src='../../../../../../form.hml'></element>
@@ -425,7 +425,7 @@ Input components use to notify user of information
 
 Let's see how to create the input component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/input"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form/blob/main/neumorph_form/input/input.hml"> here </a> as shown below. 
 
 ```html
 <element name='neualert' src='../../../../../../input.hml'></element>
@@ -452,7 +452,7 @@ Label components use to notify user of information
 
 Let's see how to create the label component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/label"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form/blob/main/neumorph_form/label/label.hml"> here </a> as shown below. 
 
 ```html
 <element name='neulabel' src='../../../../../../label.hml'></element>
@@ -480,7 +480,7 @@ Navbar components use to notify user of information
 
 Let's see how to create the navbar component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/navbar"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Navbar/blob/main/neumorph_navbar/navbar/navbar.hml"> here </a> as shown below. 
 
 ```html
 <element name='neunavbar' src='../../../../../../navbar.hml'></element>
@@ -521,7 +521,7 @@ Pagination components use to notify user of information
 
 Let's see how to create the pagination component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/pagination"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/pagination/blob/main/neumorph_pagination/pagination/pagination.hml"> here </a> as shown below. 
 
 ```html
 <element name='neupagination' src='../../../../../../pagination.hml'></element>
@@ -562,7 +562,7 @@ Progress components use to notify user of information
 
 Let's see how to create the Progress component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/progress"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/progress/blob/main/neumorph_progress/progress/progress.hml"> here </a> as shown below. 
 
 ```html
 <element name='neuprogress' src='../../../../../../progress.hml'></element>
@@ -591,7 +591,7 @@ Radio components use to notify user of information
 
 Let's see how to create the radio component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/radio"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/radio/radio.hml"> here </a> as shown below. 
 
 ```html
 <element name='neuradio' src='../../../../../../radio.hml'></element>
@@ -621,7 +621,7 @@ Switcher components use to notify user of information
 
 Let's see how to create the Switcher component in HarmonyOS.
 
-1.Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/switcher"> here </a> as shown below. 
+1.Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/switcher/switcher.hml"> here </a> as shown below. 
 
 ```html
 <element name='neuswitcher' src='../../../../../../switcher.hml'></element>
