@@ -176,10 +176,13 @@ Usage:
 </neualert>
 ```
  Below are list of properties available.
-  * `icon`
-  * `width, height`
-  * `border`
-  
+ | Components   | Description |
+ | -------------| ------------|
+ | `icon`      |               |
+ | `width, height` |           |
+ | `border`|                   |
+ |           |                 |
+ 
 That's it by doing this we will get the below Neumorphic alert design and some variations.
 
 <img src="assets/alertdesign.png" width="" height="">
