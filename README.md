@@ -35,14 +35,14 @@ Similarly we can implement the below list of components.
 | Components   | Display                                            |Description |
 | -------------| -------------                                      |------------- |
 | <b><a href ="https://github.com/arynn-gupta/Alert">avatar</a></b>       | <img src="https://github.com/applibgroup/Neumorphism/blob/main/sample_images/avatar.png" width="" height=""/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Avatar is used to display the profile image with Neumorphism effect. We have access to the listed properties like icon, width, height and border and icon is the property used to add the image. More info can be found <a href="https://github.com/arynn-gupta/Alert">here.</a>
-| <b><a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/button">button </a> </b>     | <img src="assets/button.PNG" width="" height=""/>  |  Button is slightly different with  just not text but also has a icon prefixed and a onclick event which is triggered when the buttonis clicked.List of properties are icon, width, height and border and icon is the property to be used. More info can be found <a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/button">here.</a>
-| <b><a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/buttons">buttons </a></b>     | <img src="assets/buttons.PNG" width="" height=""/>  |Buttons is unique with slots on the left and right to add text, onclick event which is triggered when the buttonis clicked.List of properties are icon, width, height and slotto be used. More info can be found <a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/buttons">here.</a>
+| <b><a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/button">button </a> </b>     | <img src="assets/button.PNG" width="" height=""/>  |  Button is slightly different with  just not text but also has a icon prefixed and a onclick event which is triggered when the button is clicked.List of properties are icon, width, height and border and icon is the property to be used. More info can be found <a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/button">here.</a>
+| <b><a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/buttons">buttons </a></b>     | <img src="assets/buttons.PNG" width="" height=""/>  |Buttons is unique with slots on the left and right to add text, onclick event which is triggered when the button is clicked.List of properties are icon, width, height and slots be used. More info can be found <a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/buttons">here.</a>
 | <b><a href="https://github.com/applibgroup/Checkbox/tree/main/neumorph_checkbox/checkbox">checkbox </a> </b>    | <img src="assets/checkbox.PNG" width="" height=""/>  | Checkbox is the simple checkbox option with Neumorphism effect and  more info can be found <a href="https://github.com/applibgroup/Checkbox/tree/main/neumorph_checkbox/checkbox">here.</a>
 | <b><a href="https://github.com/applibgroup/Dropdown/blob/main/neumorph_dropdown/dropdown/dropdown.hml">dropdown</a> </b>    | <img src="assets/dropdown.PNG" width="" height=""/>  |Dropdown with Neumorphism effect with simple list items and  more info can be found <a href="https://github.com/applibgroup/Dropdown/blob/main/neumorph_dropdown/dropdown/dropdown.hml">here.</a>
 | <b><a href= "https://github.com/applibgroup/form/blob/main/neumorph_form/form/form.hml">form </a>   </b>     | <img src="assets/form.PNG" width="" height=""/>  |Form with Neumorphism effect is a unique component with text fields which is the neuinput component and more info can be found <a href="https://github.com/applibgroup/form/blob/main/neumorph_form/form/form.hml">here.</a>
 | <b><a href="https://github.com/applibgroup/form/blob/main/neumorph_form/input/input.hml">input</a>  </b>      | <img src="assets/input.PNG" width="" height=""/>  |Input with Neumorphism effect is a basic component for building forms with properties like type, maxlength and placeholder more info can be found <a href="https://github.com/applibgroup/form/blob/main/neumorph_form/input/input.hml">here.</a> 
-| <b><a href="https://github.com/applibgroup/form/tree/main/neumorph_form/label">label</a> </b>       | <img src="assets/label.PNG" width="" height=""/>  |Label can be used with Input in which youy can add the icon and the text, more info can be found <a href="https://github.com/applibgroup/form/tree/main/neumorph_form/label">here.</a> 
-| <b><a href="https://github.com/applibgroup/Navbar">navbar</a>  </b>     | <img src="assets/navbar.PNG" width="" height=""/>  |Navbar is a very intersting component that will help you to display 3 icon format with slots, more info can be found <a href="https://github.com/applibgroup/Navbar">here.</a> 
+| <b><a href="https://github.com/applibgroup/form/tree/main/neumorph_form/label">label</a> </b>       | <img src="assets/label.PNG" width="" height=""/>  |Label can be used with Input in which you can add the icon and the text, more info can be found <a href="https://github.com/applibgroup/form/tree/main/neumorph_form/label">here.</a> 
+| <b><a href="https://github.com/applibgroup/Navbar">navbar</a>  </b>     | <img src="assets/navbar.PNG" width="" height=""/>  |Navbar is a very interesting  component that will help you to display 3 icon format with slots, more info can be found <a href="https://github.com/applibgroup/Navbar">here.</a> 
 | <b><a href="https://github.com/applibgroup/pagination/tree/main/neumorph_pagination/pagination">pagination</a> </b>  | <img src="assets/pagination.PNG" width="" height="" />  |Pagination with Neumorphism style and every page is a button , more info can be found <a href="https://github.com/applibgroup/pagination/tree/main/neumorph_pagination/pagination">here.</a>        
 | <b><a href="https://github.com/applibgroup/progress/tree/main/neumorph_progress">progress </a> </b>   | <img src="assets/progress.PNG" width="" height="" />  |Progress which indicates the progress of particular action item with progress properties and color can provided to highlight the indicator, more info can be found <a href="https://github.com/applibgroup/progress/tree/main/neumorph_progress">here.</a> 
 | <b><a href="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/radio/radio.hml">radio  </a>  </b>    | <img src="assets/radio.PNG" width="" height="" />  |Radio which is like checkbox simple as such in which you can perform two operation slike on or off, more info can be found <a href="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/radio/radio.hml">here.</a>               
@@ -157,7 +157,7 @@ Usage:
 
 # Alert
 Alert components use to notify user of information
-Let's see how to create the alert component in HarmonyOS.
+Lets see how to create the alert component in HarmonyOS.
 
 1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Alert/blob/main/neumorph_alert/alert/alert.hml"> here </a> as shown below. 
 
@@ -247,7 +247,7 @@ Below are list of properties available.
  | `icon`      |   Icon represent the image which is placed in the left corner of the button.           |
  | `width, height` |    Defines the height and width of the Button box.       |
  | `border`|    Defines the border of the button box.               |
- | `button-event` | when clicked on the button we need to define the action here.                |
+ | `button-event` | When clicked on the button we need to define the action here.                |
 
 That's it by doing this we will get the below Neumorphic Button design.
 
@@ -284,7 +284,7 @@ Below are list of properties available.
  | -------------| ------------|
  | `width, height` |    Defines the height and width of the Buttons box.       |
  | `border`|    Defines the border of the buttons box.               |
- | `onclick` | when clicked on the button we need to define the action here.                |
+ | `onclick` | When clicked on the button we need to define the action here.                |
  | `slot` | Slot with class ="first" ensure the content is added to the left and class ="second" the content is added to the Right                |
 
 That's it by doing this we will get the below Neumorphic buttons design.
@@ -302,7 +302,7 @@ Import:
 <element name='neucard' src='../../../../../../card.hml'></element>
 ```
 
-2. Now we need use the tag named "neucard" and define the parameters like height, width and border as shown below and a image to display inside the card, you can replace it with text as well.
+2. Now we need use the tag named "neucard" and define the parameters like height, width and border as shown below and the image to display inside the card, you can replace it with text as well.
   
 Usage:
 ```html
@@ -346,8 +346,8 @@ Below are list of properties available.
  | -------------| ------------|
  | `color` |    Defines the color of the Checkbox.       |
  | `width, height` |    Defines the height and width of the checkbox box.       |
- | `checked` |    This property defines the if the checkbox needs to be checked or not, if true it is checked and false makes it unchecked.      |
- | `check-event`|    when clicked on the checkbox we need to define the action here.               |
+ | `checked` |    This property defines if the checkbox needs to be checked or not, if true it is checked and false makes it unchecked.      |
+ | `check-event`|    When clicked on the checkbox we need to define the action here.               |
   
 That's it by doing this we will get the below Neumorphic checkbox design.
 
@@ -392,7 +392,7 @@ Below are list of properties available.
  | Properties   | Description |
  | -------------| ------------|
  | `width, height` |    Defines the height and width of the Dropdown box.       |
- | `selected` |    This property defines which item of the dropitem to displayed as default in the dropdown, true and false are the values that can be set. |
+ | `selected` |    This property defines which item of the dropdown item to be displayed as default in the dropdown, true and false are the values that can be set. |
  | `change-event`|    when clicked on the checkbox we need to define the action here.               |
   
 That's it by doing this we will get the below Neumorphic dropdown design.
@@ -405,7 +405,7 @@ Form components use to notify user of information
 
 Let's see how to create the form component in HarmonyOS.
 
-1.Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form/blob/main/neumorph_form/form/form.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form/blob/main/neumorph_form/form/form.hml"> here </a> as shown below. 
 
 ```html
 <element name='neuform' src='../../../../../../form.hml'></element>
@@ -513,7 +513,7 @@ Let's see how to create the navbar component in HarmonyOS.
 <element name='neunavbar' src='../../../../../../navbar.hml'></element>
 ```
 
-2.Now we need use the tag named "neunavbar" and define the parameters like image and text as shown below.
+2. Now we need use the tag named "neunavbar" and define the parameters like image and text as shown below.
   
 Usage:
 ```html
@@ -539,7 +539,7 @@ Below are list of properties available.
  | `right-event`|   This property defines the action item placed on the right of the navigation.|
  | `middle-event`|   This property defines the action item placed on the middle of the navigation.|
  | `left-event`|   This property defines the action item placed on the left of the navigation.|
- | `slot`|   This property defines the position of the icon, slot="first", the image is placed in left, slot="second", the image is placed in middle,slot="third", the image is placed in right.|
+ | `slot`|   This property defines the position of the icon, slot="first", the image is placed in left, slot="second", the image is placed in middle, slot="third", the image is placed in right.|
  
 That's it by doing this we will get the below Neumorphic navbar design.
 
@@ -646,8 +646,8 @@ Below are list of properties available.
  | -------------| ------------|
  | `color` |    Defines the color of the Radio.       |
  | `width, height` |    Defines the height and width of the Radio box.       |
- | `checked` |    This property defines the if the radio needs to be checked or not, if true it is checked and false makes it unchecked.      |
- | `check-event`|    when clicked on the radio we need to define the action here.               |
+ | `checked` |    This property defines if the radio needs to be checked or not, if true it is checked and false makes it unchecked.      |
+ | `check-event`|    When clicked on the radio we need to define the action here.               |
   
 That's it by doing this we will get the below Neumorphic radio design.
 
@@ -659,7 +659,7 @@ Switcher components use to notify user of information
 
 Let's see how to create the Switcher component in HarmonyOS.
 
-1.Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/switcher/switcher.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/switcher/switcher.hml"> here </a> as shown below. 
 
 ```html
 <element name='neuswitcher' src='../../../../../../switcher.hml'></element>
@@ -677,8 +677,8 @@ Below are list of properties available.
  | -------------| ------------|
  | `color` |    Defines the color of the Switcher.       |
  | `width, height` |    Defines the height and width of the Switcher box.       |
- | `toggle` |    This property defines the if the Switcher needs to be checked or not, if true it is checked and false makes it unchecked.      |
- | `toggle-event`|    when clicked on the Switcher we need to define the action here.               |
+ | `toggle` |    This property defines if the Switcher needs to be checked or not, if true it is checked and false makes it unchecked.      |
+ | `toggle-event`|    When clicked on the Switcher we need to define the action here.               |
   
 
 That's it by doing this we will get the below Neumorphic Switcher design.
