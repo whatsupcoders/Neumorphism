@@ -456,10 +456,15 @@ Usage:
 <neuinput icon="common/icons/user.png" type="text" maxlength="20" placeholder="Input" width="300px" height="50px" border="50px" ></neuinput>
 ```
 Below are list of properties available.
-  * `width, height`
-  * `icon`
-  * `type`,`maxlength`
-  * `placeholder`
+ | Components   | Description |
+ | -------------| ------------|
+ | `icon` |    Defines the icon for the input form and placed on the left corner.       |
+ | `type` |    The type property defines the type of data accepted in the input form|
+ | `maxlength`|   This property defines the maxlength that you can input in the field|
+ | `placeholder`|   This property defines the field is input.|
+ | `width, height`|   This property defines the width and height of the input field.|
+ | `border`|   This property defines the border of the input field.|
+
   
 That's it by doing this we will get the below Neumorphic input design.
 
@@ -485,9 +490,12 @@ Usage:
 
 ```
 Below are list of properties available.
-  * `width, height`
-  * `icon`
-  * `text`
+ | Components   | Description |
+ | -------------| ------------|
+ | `icon` |    Defines the icon for the label and placed on the left corner.       |
+ | `text` |    This property defines the field is label.|
+ | `width, height`|   This property defines the width and height of the label field.|
+ | `border`|   This property defines the border of the label field.|
   
 That's it by doing this we will get the below Neumorphic label design.
 
