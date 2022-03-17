@@ -178,9 +178,9 @@ Usage:
  Below are list of properties available.
  | Components   | Description |
  | -------------| ------------|
- | `icon`      |               |
- | `width, height` |           |
- | `border`|                   |
+ | `icon`      |   Icon represent the image which is placed in the left corner of the alert box.           |
+ | `width, height` |    Defines the height and width of the alert box.       |
+ | `border`|    Defines the border of the alert box.               |
  |           |                 |
  
 That's it by doing this we will get the below Neumorphic alert design and some variations.
@@ -206,9 +206,12 @@ Usage:
 <neuavatar icon="common/icons/user.png" width="100px" height="100px" border="50px"></neuavatar>
 ```
 Below are list of properties available.
-  * `icon`
-  * `width, height`
-  * `border`
+ | Components   | Description |
+ | -------------| ------------|
+ | `icon`      |   Icon represent the image which is placed in the Center of the Avatar box.           |
+ | `width, height` |    Defines the height and width of the Avatar box.       |
+ | `border`|    Defines the border of the Avatar box.               |
+ |           |                 |
   
 That's it by doing this we will get the below Neumorphic avatar design.
 
@@ -239,10 +242,12 @@ Usage:
 </neubutton>
 ```
 Below are list of properties available.
-  * `icon`
-  * `width, height`
-  * `border`
-  * `button-event`
+ | Components   | Description |
+ | -------------| ------------|
+ | `icon`      |   Icon represent the image which is placed in the left corner of the button.           |
+ | `width, height` |    Defines the height and width of the Button box.       |
+ | `border`|    Defines the border of the button box.               |
+ | `button-event` | when clicked on the button we need to define the action here.                |
 
 That's it by doing this we will get the below Neumorphic Button design.
 
@@ -275,10 +280,12 @@ Usage:
 </neubuttons>
 ```
 Below are list of properties available.
-  * `icon`
-  * `width, height`
-  * `border`
-  * `slot`
+ | Components   | Description |
+ | -------------| ------------|
+ | `width, height` |    Defines the height and width of the Buttons box.       |
+ | `border`|    Defines the border of the buttons box.               |
+ | `onclick` | when clicked on the button we need to define the action here.                |
+ | `slot` | Slot with class ="first" ensure the content is added to the left and class ="second" the content is added to the Right                |
 
 That's it by doing this we will get the below Neumorphic buttons design.
 
