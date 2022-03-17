@@ -176,7 +176,7 @@ Usage:
 </neualert>
 ```
  Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `icon`      |   Icon represent the image which is placed in the left corner of the alert box.           |
  | `width, height` |    Defines the height and width of the alert box.       |
@@ -206,7 +206,7 @@ Usage:
 <neuavatar icon="common/icons/user.png" width="100px" height="100px" border="50px"></neuavatar>
 ```
 Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `icon`      |   Icon represent the image which is placed in the Center of the Avatar box.           |
  | `width, height` |    Defines the height and width of the Avatar box.       |
@@ -242,7 +242,7 @@ Usage:
 </neubutton>
 ```
 Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `icon`      |   Icon represent the image which is placed in the left corner of the button.           |
  | `width, height` |    Defines the height and width of the Button box.       |
@@ -280,7 +280,7 @@ Usage:
 </neubuttons>
 ```
 Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `width, height` |    Defines the height and width of the Buttons box.       |
  | `border`|    Defines the border of the buttons box.               |
@@ -311,7 +311,7 @@ Usage:
 </neucard>
 ```
 Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `width, height` |    Defines the height and width of the Card.       |
  | `border`|    Defines the border of the card.               |
@@ -342,7 +342,7 @@ Usage:
 <neucheckbox color="#00dd19" width="50px" height="50px" border="50px" checked="true" @check-event="checkboxClick"></neucheckbox>
 ```
 Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `color` |    Defines the color of the Checkbox.       |
  | `width, height` |    Defines the height and width of the checkbox box.       |
@@ -389,7 +389,7 @@ Usage:
   </neudropdown>
 ```
 Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `width, height` |    Defines the height and width of the Dropdown box.       |
  | `selected` |    This property defines which item of the dropitem to displayed as default in the dropdown, true and false are the values that can be set. |
@@ -428,7 +428,7 @@ Usage:
 </neuform>
 ```
 Below are list of properties available.
-| Components   | Description |
+| Properties   | Description |
  | -------------| ------------|
  | `width, height` |    Defines the height and width of the Form box.       |
  | `submit-event` |    The form contains the submit button, and the action related to submit event is defined here.|
@@ -456,7 +456,7 @@ Usage:
 <neuinput icon="common/icons/user.png" type="text" maxlength="20" placeholder="Input" width="300px" height="50px" border="50px" ></neuinput>
 ```
 Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `icon` |    Defines the icon for the input form and placed on the left corner.       |
  | `type` |    The type property defines the type of data accepted in the input form|
@@ -490,7 +490,7 @@ Usage:
 
 ```
 Below are list of properties available.
- | Components   | Description |
+ | Properties   | Description |
  | -------------| ------------|
  | `icon` |    Defines the icon for the label and placed on the left corner.       |
  | `text` |    This property defines the field is label.|
@@ -533,11 +533,14 @@ Usage:
 
 ```
 Below are list of properties available.
-  * `width, height`
-  * `right-event`
-  * `middle-event`
-  * `left-event`
-  
+ | Properties   | Description |
+ | -------------| ------------|
+ | `width, height`|   This property defines the width and height of the Navbar.|
+ | `right-event`|   This property defines the action item placed on the right of the navigation.|
+ | `middle-event`|   This property defines the action item placed on the middle of the navigation.|
+ | `left-event`|   This property defines the action item placed on the left of the navigation.|
+ | `slot`|   This property defines the position of the icon, slot="first", the image is placed in left, slot="second", the image is placed in middle,slot="third", the image is placed in right.|
+ 
 That's it by doing this we will get the below Neumorphic navbar design.
 
 <img src="assets/navdesign.PNG" width="" height="">
@@ -574,10 +577,13 @@ Usage:
 </neupagination>
 ```
 Below are list of properties available.
-  * `width, height`
-  * `color`
-  * `previous-event`
-  * `next-event`
+ | Properties   | Description |
+ | -------------| ------------|
+ | `color`|   This property defines the color of the arrow in the pagination|
+ | `width, height`|   This property defines the width and height of the pagination.|
+ | `border`|   This property defines the border of the pagination.|
+ | `previous-event`|   This property defines the action item placed on the left arrow of the pagination.|
+ | `next-event`|    This property defines the action item placed on the right arrow of the pagination.|
   
 That's it by doing this we will get the below Neumorphic pagination design.
 
@@ -603,10 +609,13 @@ Usage:
     <neuprogress progress="60%" width="300px" color="#ff0000" height="20px" border="50px"></neuprogress>
 ```
 Below are list of properties available.
-  * `progress`
-  * `width`
-  * `color`
-  * `height, border`
+ | Properties   | Description |
+ | -------------| ------------|
+ | `color`|   This property defines the color of the progress.|
+ | `width, height`|   This property defines the width and height of the progress.|
+ | `border`|   This property defines the border of the progress.|
+ | `progress`|   This property defines the value of the progress value in percent.|
+
   
 That's it by doing this we will get the below Neumorphic Progress design.
 
@@ -633,10 +642,12 @@ Usage:
     <neuradio width="50px" color="#00dd19" height="50px" border="50px" checked="true" @check-event="radioClick"></neuradio>
 ```
 Below are list of properties available.
-  * `border`
-  * `width height`
-  * `color`
-  * `check-event`
+ | Properties   | Description |
+ | -------------| ------------|
+ | `color` |    Defines the color of the Radio.       |
+ | `width, height` |    Defines the height and width of the Radio box.       |
+ | `checked` |    This property defines the if the radio needs to be checked or not, if true it is checked and false makes it unchecked.      |
+ | `check-event`|    when clicked on the radio we need to define the action here.               |
   
 That's it by doing this we will get the below Neumorphic radio design.
 
@@ -662,10 +673,13 @@ Usage:
     <neuswitcher width="60px" color="" height="30px" border="50px" toggle="off" @toggle-event="toggleClick"></neuswitcher>
 ```
 Below are list of properties available.
-  * `border`
-  * `width height`
-  * `toggle`
-  * `toggle-event`
+ | Properties   | Description |
+ | -------------| ------------|
+ | `color` |    Defines the color of the Switcher.       |
+ | `width, height` |    Defines the height and width of the Switcher box.       |
+ | `toggle` |    This property defines the if the Switcher needs to be checked or not, if true it is checked and false makes it unchecked.      |
+ | `toggle-event`|    when clicked on the Switcher we need to define the action here.               |
+  
 
 That's it by doing this we will get the below Neumorphic Switcher design.
 
