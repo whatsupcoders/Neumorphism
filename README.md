@@ -311,9 +311,12 @@ Usage:
 </neucard>
 ```
 Below are list of properties available.
-  * `width, height`
-  * `border`
-  * `image src`
+ | Components   | Description |
+ | -------------| ------------|
+ | `width, height` |    Defines the height and width of the Card.       |
+ | `border`|    Defines the border of the card.               |
+ | `image` | Image defines the placeholder image. |
+
   
 That's it by doing this we will get the below Neumorphic card design.
 
@@ -339,10 +342,12 @@ Usage:
 <neucheckbox color="#00dd19" width="50px" height="50px" border="50px" checked="true" @check-event="checkboxClick"></neucheckbox>
 ```
 Below are list of properties available.
-  * `width, height`
-  * `border`
-  * `color`
-  * `check-event`
+ | Components   | Description |
+ | -------------| ------------|
+ | `color` |    Defines the color of the Checkbox.       |
+ | `width, height` |    Defines the height and width of the checkbox box.       |
+ | `checked` |    This property defines the if the checkbox needs to be checked or not, if true it is checked and false makes it unchecked.      |
+ | `check-event`|    when clicked on the checkbox we need to define the action here.               |
   
 That's it by doing this we will get the below Neumorphic checkbox design.
 
@@ -384,9 +389,11 @@ Usage:
   </neudropdown>
 ```
 Below are list of properties available.
-  * `width, height`
-  * `border`
-  * `change-event`
+ | Components   | Description |
+ | -------------| ------------|
+ | `width, height` |    Defines the height and width of the Dropdown box.       |
+ | `selected` |    This property defines which item of the dropitem to displayed as default in the dropdown, true and false are the values that can be set. |
+ | `change-event`|    when clicked on the checkbox we need to define the action here.               |
   
 That's it by doing this we will get the below Neumorphic dropdown design.
 
@@ -421,9 +428,11 @@ Usage:
 </neuform>
 ```
 Below are list of properties available.
-  * `width, height`
-  * `border`
-  * `submit-event`,`reset-event`
+| Components   | Description |
+ | -------------| ------------|
+ | `width, height` |    Defines the height and width of the Form box.       |
+ | `submit-event` |    The form contains the submit button, and the action related to submit event is defined here.|
+ | `reset-event`|    The form contains the reset button, and the action related to reset event is defined here.|
   
 That's it by doing this we will get the below Neumorphic form design.
 
