@@ -87,7 +87,6 @@ Usage:
 <p>With the above snippet we can get the below design.</p>
 <img src="assets/neucard.PNG" />
  <hr/>
- 
 <h3>Smart Home Dark and Light Theme</h3>
 <p> The complete uses case code can be found <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Darkmode">here.</a></p>
 <p> The below uses case is a simple Living Room Design in <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Darkmode">Dark mode </a> and <a href="https://github.com/applibgroup/Neumorphism_Smarthome_Lightmode">Light mode</a> and it is implemented using the Neumorphism library and every component displayed in the Living Room are the neumorphic component like listed below.</p>
@@ -152,7 +151,6 @@ Usage:
 <img src="assets/livingroom_phonedesign.png" width="200px" height="">
 </p>
 <hr />
-
 <p>Below are the components created with Neumorphic effect </p>
 
 # Alert
@@ -187,7 +185,6 @@ That's it by doing this we will get the below Neumorphic alert design and some v
 
 <img src="assets/alertdesign.png" width="" height="">
 <hr>
-
 # Avatar
 Avatar components use to notify user of information
 
@@ -470,7 +467,6 @@ That's it by doing this we will get the below Neumorphic input design.
 
 <img src="assets/input.PNG" width="" height="">
 <hr>
-
 # Label
 Label components use to notify user of information
 
