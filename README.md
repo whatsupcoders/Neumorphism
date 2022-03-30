@@ -35,18 +35,18 @@ Similarly we can implement the below list of components.
 | Components   | Display                                            |Description |
 | -------------| -------------                                      |------------- |
 | <b><a href ="https://github.com/arynn-gupta/Alert">avatar</a></b>       | <img src="https://github.com/applibgroup/Neumorphism/blob/main/sample_images/avatar.png" width="" height=""/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Avatar is used to display the profile image with Neumorphism effect. We have access to the listed properties like icon, width, height and border and icon is the property used to add the image. More info can be found <a href="https://github.com/arynn-gupta/Alert">here.</a>
-| <b><a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/button">button </a> </b>     | <img src="assets/button.PNG" width="" height=""/>  |  Button is slightly different with  just not text but also has a icon prefixed and a onclick event which is triggered when the button is clicked.List of properties are icon, width, height and border and icon is the property to be used. More info can be found <a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/button">here.</a>
-| <b><a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/buttons">buttons </a></b>     | <img src="assets/buttons.PNG" width="" height=""/>  |Buttons is unique with slots on the left and right to add text, onclick event which is triggered when the button is clicked.List of properties are icon, width, height and slots be used. More info can be found <a href="https://github.com/applibgroup/Buttons/tree/main/neumorph_buttons/buttons">here.</a>
-| <b><a href="https://github.com/applibgroup/Checkbox/tree/main/neumorph_checkbox/checkbox">checkbox </a> </b>    | <img src="assets/checkbox.PNG" width="" height=""/>  | Checkbox is the simple checkbox option with Neumorphism effect and  more info can be found <a href="https://github.com/applibgroup/Checkbox/tree/main/neumorph_checkbox/checkbox">here.</a>
-| <b><a href="https://github.com/applibgroup/Dropdown/blob/main/neumorph_dropdown/dropdown/dropdown.hml">dropdown</a> </b>    | <img src="assets/dropdown.PNG" width="" height=""/>  |Dropdown with Neumorphism effect with simple list items and  more info can be found <a href="https://github.com/applibgroup/Dropdown/blob/main/neumorph_dropdown/dropdown/dropdown.hml">here.</a>
-| <b><a href= "https://github.com/applibgroup/form/blob/main/neumorph_form/form/form.hml">form </a>   </b>     | <img src="assets/form.PNG" width="" height=""/>  |Form with Neumorphism effect is a unique component with text fields which is the neuinput component and more info can be found <a href="https://github.com/applibgroup/form/blob/main/neumorph_form/form/form.hml">here.</a>
-| <b><a href="https://github.com/applibgroup/form/blob/main/neumorph_form/input/input.hml">input</a>  </b>      | <img src="assets/input.PNG" width="" height=""/>  |Input with Neumorphism effect is a basic component for building forms with properties like type, maxlength and placeholder more info can be found <a href="https://github.com/applibgroup/form/blob/main/neumorph_form/input/input.hml">here.</a> 
-| <b><a href="https://github.com/applibgroup/form/tree/main/neumorph_form/label">label</a> </b>       | <img src="assets/label.PNG" width="" height=""/>  |Label can be used with Input in which you can add the icon and the text, more info can be found <a href="https://github.com/applibgroup/form/tree/main/neumorph_form/label">here.</a> 
+| <b><a href="https://github.com/applibgroup/Buttons">button </a> </b>     | <img src="assets/button.PNG" width="" height=""/>  |  Button is slightly different with  just not text but also has a icon prefixed and a onclick event which is triggered when the button is clicked.List of properties are icon, width, height and border and icon is the property to be used. More info can be found <a href="https://github.com/applibgroup/Buttons">here.</a>
+| <b><a href="https://github.com/applibgroup/Buttons">buttons </a></b>     | <img src="assets/buttons.PNG" width="" height=""/>  |Buttons is unique with slots on the left and right to add text, onclick event which is triggered when the button is clicked.List of properties are icon, width, height and slots be used. More info can be found <a href="https://github.com/applibgroup/Buttons">here.</a>
+| <b><a href="https://github.com/applibgroup/Checkbox">checkbox </a> </b>    | <img src="assets/checkbox.PNG" width="" height=""/>  | Checkbox is the simple checkbox option with Neumorphism effect and  more info can be found <a href="https://github.com/applibgroup/Checkbox">here.</a>
+| <b><a href="https://github.com/applibgroup/Dropdown">dropdown</a> </b>    | <img src="assets/dropdown.PNG" width="" height=""/>  |Dropdown with Neumorphism effect with simple list items and  more info can be found <a href="https://github.com/applibgroup/Dropdown">here.</a>
+| <b><a href= "https://github.com/applibgroup/form">form </a>   </b>     | <img src="assets/form.PNG" width="" height=""/>  |Form with Neumorphism effect is a unique component with text fields which is the neuinput component and more info can be found <a href="https://github.com/applibgroup/form">here.</a>
+| <b><a href="https://github.com/applibgroup/form">input</a>  </b>      | <img src="assets/input.PNG" width="" height=""/>  |Input with Neumorphism effect is a basic component for building forms with properties like type, maxlength and placeholder more info can be found <a href="https://github.com/applibgroup/form">here.</a> 
+| <b><a href="https://github.com/applibgroup/form">label</a> </b>       | <img src="assets/label.PNG" width="" height=""/>  |Label can be used with Input in which you can add the icon and the text, more info can be found <a href="https://github.com/applibgroup/form/tree/main/neumorph_form/label">here.</a> 
 | <b><a href="https://github.com/applibgroup/Navbar">navbar</a>  </b>     | <img src="assets/navbar.PNG" width="" height=""/>  |Navbar is a very interesting  component that will help you to display 3 icon format with slots, more info can be found <a href="https://github.com/applibgroup/Navbar">here.</a> 
-| <b><a href="https://github.com/applibgroup/pagination/tree/main/neumorph_pagination/pagination">pagination</a> </b>  | <img src="assets/pagination.PNG" width="" height="" />  |Pagination with Neumorphism style and every page is a button , more info can be found <a href="https://github.com/applibgroup/pagination/tree/main/neumorph_pagination/pagination">here.</a>        
-| <b><a href="https://github.com/applibgroup/progress/tree/main/neumorph_progress">progress </a> </b>   | <img src="assets/progress.PNG" width="" height="" />  |Progress which indicates the progress of particular action item with progress properties and color can provided to highlight the indicator, more info can be found <a href="https://github.com/applibgroup/progress/tree/main/neumorph_progress">here.</a> 
-| <b><a href="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/radio/radio.hml">radio  </a>  </b>    | <img src="assets/radio.PNG" width="" height="" />  |Radio which is like checkbox simple as such in which you can perform two operation slike on or off, more info can be found <a href="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/radio/radio.hml">here.</a>               
-| <b><a href="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/switcher/switcher.hml">switcher</a></b>     | <img src="assets/switch.PNG" width="" height="" />  |Switcher is more like a switcher which is like you want to turn on or turn off actions, more info can be found <a href="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/switcher/switcher.hml">here.</a>
+| <b><a href="https://github.com/applibgroup/pagination">pagination</a> </b>  | <img src="assets/pagination.PNG" width="" height="" />  |Pagination with Neumorphism style and every page is a button , more info can be found <a href="https://github.com/applibgroup/pagination">here.</a>        
+| <b><a href="https://github.com/applibgroup/progress">progress </a> </b>   | <img src="assets/progress.PNG" width="" height="" />  |Progress which indicates the progress of particular action item with progress properties and color can provided to highlight the indicator, more info can be found <a href="https://github.com/applibgroup/progress">here.</a> 
+| <b><a href="https://github.com/applibgroup/Checkbox">radio  </a>  </b>    | <img src="assets/radio.PNG" width="" height="" />  |Radio which is like checkbox simple as such in which you can perform two operation slike on or off, more info can be found <a href="https://github.com/applibgroup/Checkbox">here.</a>               
+| <b><a href="https://github.com/applibgroup/Checkbox">switcher</a></b>     | <img src="assets/switch.PNG" width="" height="" />  |Switcher is more like a switcher which is like you want to turn on or turn off actions, more info can be found <a href="https://github.com/applibgroup/Checkbox">here.</a>
 
 <hr />
 <p> Let’s go through some of the uses cases and there implementation using Neumorphism library.<p>
@@ -190,7 +190,7 @@ Avatar components use to notify user of information
 
 Let's see how to create the Avatar component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Card/blob/main/neumorph_card/avatar/avatar.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Card"> here </a> as shown below. 
 
 ```html
 <element name='neuavatar' src='../../../../../../avatar.hml'></element>
@@ -256,7 +256,7 @@ Buttons components use to notify user of information
 
 Let's see how to create the buttons component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Buttons/blob/main/neumorph_buttons/buttons/buttons.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Buttons"> here </a> as shown below. 
 
 ```html
 <element name='neubuttons' src='../../../../../../buttons.hml'></element>
@@ -292,7 +292,7 @@ That's it by doing this we will get the below Neumorphic buttons design.
 # Card
 Now let's how to implement a card design.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Card/blob/main/neumorph_card/card/card.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Card"> here </a> as shown below. 
 
 Import:
 ```html
@@ -325,7 +325,7 @@ Checkbox components use to notify user of information
 
 Let's see how to create the checkbox component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/checkbox/checkbox.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox"> here </a> as shown below. 
 
 ```html
 <element name='neucheckbox' src='../../../../../../checkbox.hml'></element>
@@ -356,7 +356,7 @@ Dropdown components use to notify user of information
 
 Let's see how to create the dropdown component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Neumorphism/tree/main/entry/src/main/js/default/pages/node_modules/hmos-neumorphism/dropdown"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Dropdown"> here </a> as shown below. 
 
 ```html
 <element name='neudropdown' src='../../../../../../dropdown.hml'></element>
@@ -402,7 +402,7 @@ Form components use to notify user of information
 
 Let's see how to create the form component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form/blob/main/neumorph_form/form/form.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form"> here </a> as shown below. 
 
 ```html
 <element name='neuform' src='../../../../../../form.hml'></element>
@@ -441,7 +441,7 @@ Input components use to notify user of information
 
 Let's see how to create the input component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form/blob/main/neumorph_form/input/input.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form"> here </a> as shown below. 
 
 ```html
 <element name='neualert' src='../../../../../../input.hml'></element>
@@ -472,7 +472,7 @@ Label components use to notify user of information
 
 Let's see how to create the label component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form/blob/main/neumorph_form/label/label.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/form"> here </a> as shown below. 
 
 ```html
 <element name='neulabel' src='../../../../../../label.hml'></element>
@@ -503,7 +503,7 @@ Navbar components use to notify user of information
 
 Let's see how to create the navbar component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Navbar/blob/main/neumorph_navbar/navbar/navbar.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Navbar"> here </a> as shown below. 
 
 ```html
 <element name='neunavbar' src='../../../../../../navbar.hml'></element>
@@ -547,7 +547,7 @@ Pagination components use to notify user of information
 
 Let's see how to create the pagination component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/pagination/blob/main/neumorph_pagination/pagination/pagination.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/pagination"> here </a> as shown below. 
 
 ```html
 <element name='neupagination' src='../../../../../../pagination.hml'></element>
@@ -591,7 +591,7 @@ Progress components use to notify user of information
 
 Let's see how to create the Progress component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/progress/blob/main/neumorph_progress/progress/progress.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/progress"> here </a> as shown below. 
 
 ```html
 <element name='neuprogress' src='../../../../../../progress.hml'></element>
@@ -623,7 +623,7 @@ Radio components use to notify user of information
 
 Let's see how to create the radio component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/radio/radio.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox"> here </a> as shown below. 
 
 ```html
 <element name='neuradio' src='../../../../../../radio.hml'></element>
@@ -655,7 +655,7 @@ Switcher components use to notify user of information
 
 Let's see how to create the Switcher component in HarmonyOS.
 
-1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox/blob/main/neumorph_checkbox/switcher/switcher.hml"> here </a> as shown below. 
+1. Import: the node component and you can refer that from library <a href ="https://github.com/applibgroup/Checkbox"> here </a> as shown below. 
 
 ```html
 <element name='neuswitcher' src='../../../../../../switcher.hml'></element>
