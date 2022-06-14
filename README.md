@@ -14,11 +14,12 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-sig/
   <li>Neumorphism designs remain a timeless classic.</li>
   <li>It accelerates the process of conceptualizing, building, testing, and iterating new screens.</li>
 </ul>
-
+<br/>
 <p> This is the library reference <a href = "https://gitee.com/openharmony-sig/Neumorphism">Here</a> </p>
 
 ## **4. Typical Use Cases**
-This library - <span style="color: purple;">neomorphism</span>, is very useful in the development of applications which are in our daily use. Couple of such examples are mentioned below:
+The library <span style="color: purple;">Neomorphism</span>, can be implemented in most of the common used application component to achieve the neumorphic effect.
+Below are some of the examples to be highlighted.
 
 <div align="center">
 <table>
@@ -38,8 +39,8 @@ This library - <span style="color: purple;">neomorphism</span>, is very useful i
 </div>
 
 
-## **5. Capability and Features**
-This section highlights the list of features available with Neumorphism library and the list the library supports.
+## **5. List of Features**
+This section highlights the list of components created with Neumorphic effect that is available and supported.
   
 | Components   | Display                                            |Description |
 | -------------| -------------                                      |------------- |
@@ -61,13 +62,13 @@ This section highlights the list of features available with Neumorphism library 
 
 
 ## **6. Installation**
-Inorder to use Neumorphism Library for HarmonyOS follow the below set of instructions
+In order to use Neumorphism Library for HarmonyOS follow the below set of instructions
 
 Download & Install
 ```
 npm i hmos-neumorphism
 ```
-Details about OpenHarmony NPM environment configuration, see at[here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md)
+Details about Open Harmony NPM environment configuration, see at[here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md)
 
 ## **7. Usage**
 ```
@@ -100,11 +101,11 @@ Import all components at once
 <element name='neucarousel' src='hmos-neumorphism/carousel/carousel.hml'></element>
 ```
 
-### **List of components supported by the library**
+### **List of components supported by the library and there detailed implementation and usage with customization.**
   
 # Alert
 Alert components use to notify user of information
-Lets see how to create the alert component in HarmonyOS.
+Let's see how to create the alert component in HarmonyOS.
 
 1. Import: the node component and you can refer that from library <a href ="https://gitee.com/openharmony-sig/Alert"> here </a> as shown below. 
 
@@ -748,4 +749,4 @@ If you haven't tried this unique style of designing then give it a try. With tha
 * For more exciting libraries to develop your app, peep into third-party-components at </br>
 [OpenHarmony-TPC](https://gitee.com/openharmony-tpc)
 
-* To know more about the developement work happening on harmony aaplication layer, and even be part of the exciting stuff, watch this space of [Application Library Engineering Group](https://github.com/applibgroup)
+* To know more about the development work happening on harmony aplication layer, and even be part of the exciting stuff, watch this space of [Application Library Engineering Group](https://github.com/applibgroup)
