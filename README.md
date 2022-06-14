@@ -8,7 +8,7 @@ Well in order to understand Neumorphism let's understand what is Skeuomorphism a
 
 To get started right away, head on to [Gitee](https://gitee.com/openharmony-sig/Neumorphism)
 
-## **3. Benefits**<ul>
+## **2. Benefits**<ul>
   <li>It adds 3D feel for real buttons and Visual Freshness.</li>
   <li>Overloaded interfaces are bypassed by users.</li>
   <li>Neumorphism designs remain a timeless classic.</li>
@@ -17,7 +17,7 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-sig/
 <br/>
 <p> This is the library reference <a href = "https://gitee.com/openharmony-sig/Neumorphism">Here</a> </p>
 
-## **4. Typical Use Cases**
+## **3. Typical Use Cases**
 The library <span style="color: purple;">Neomorphism</span>, can be implemented in most of the common used application component to achieve the neumorphic effect.
 Below are some of the examples to be highlighted.
 
@@ -39,7 +39,7 @@ Below are some of the examples to be highlighted.
 </div>
 
 
-## **5. List of Features**
+## **4. List of Features**
 This section highlights the list of components created with Neumorphic effect that is available and supported.
   
 | Components   | Display                                            |Description |
@@ -61,7 +61,7 @@ This section highlights the list of components created with Neumorphic effect th
 <hr />
 
 
-## **6. Installation**
+## **5. Installation**
 In order to use Neumorphism Library for HarmonyOS follow the below set of instructions
 
 Download & Install
@@ -70,7 +70,7 @@ npm i hmos-neumorphism
 ```
 Details about Open Harmony NPM environment configuration, see at[here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md)
 
-## **7. Usage**
+## **6. Usage**
 ```
 Note :
 Add this css snippet when passing input or button through slot .
@@ -101,7 +101,7 @@ Import all components at once
 <element name='neucarousel' src='hmos-neumorphism/carousel/carousel.hml'></element>
 ```
 
-### **List of components supported by the library and there detailed implementation and usage with customization.**
+### ** 7.List of components supported by the library and there detailed implementation and usage with customization.**
   
 # Alert
 Alert components use to notify user of information
