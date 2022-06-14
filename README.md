@@ -101,7 +101,7 @@ Import all components at once
 <element name='neucarousel' src='hmos-neumorphism/carousel/carousel.hml'></element>
 ```
 
-### ** 7.List of components supported by the library and there detailed implementation and usage with customization.**
+## **7.List of components supported by the library and there detailed implementation and usage with customization.**
   
 # Alert
 Alert components use to notify user of information
