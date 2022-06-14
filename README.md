@@ -218,7 +218,8 @@ Usage:
 <hr />    
   
 ## **9. Conclusion**
-Okio is a very easy to use and very powerful library.The performance of the library is very good even when it works on one of the latest operating systems in the world, which is HarmonyOS!
+You can find the component implementation on HarmonyOS <a href ="https://gitee.com/openharmony-sig/Neumorphism"> here.</a>
+If you haven't tried this unique style of designing then give it a try. With that being said, designers have been coming up with new design ideas that expand on the concept of Neumorphism every day. I am excited to see the interesting components that you can create.
 
 * For more exciting libraries to develop your app, peep into third-party-components at </br>
 [OpenHarmony-TPC](https://gitee.com/openharmony-tpc)
