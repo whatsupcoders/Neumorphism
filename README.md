@@ -9,15 +9,16 @@ Well in order to understand Neumorphism let's understand what is Skeuomorphism a
 To get started right away, head on to [Gitee](https://gitee.com/openharmony-sig/Neumorphism)
 
 ## **2. How to achieve Neumorphism?**
- There are certail design principles to be followed inorder to achieve neumorphism and I have listed it below.
+There are certain design principles to be followed in order to achieve Neumorphism and I have listed it below.
  <ul><li>Light Color for Light Shadow.</li>
  <li>Mid color for Main background and Element color.</li>
  <li>Dark Color for Dark Shadow.</li></ul>
  <br />
- <p>A pictorical representation in achieving Neumorphism.</p>
+ <p>A pictorial representation in achieving Neumorphism.</p>
  <br />
  <img src="assets/neuomorphic.PNG" width="" height=""/>
- <p> The Neumorphic effect can be achieved by playing with the two shades as mentioned in the above images. Using the varying the positive and negative values we can achieve the depth and the dart shadows.</p>
+ <p> The Neumorphism effect can be achieved by playing with the two shades as mentioned in the above images. Using the varying the positive and negative values we can achieve the depth and the dart shadows.</p>
+ <p>If you would like to implement your own or custom Neumorphism color Scheme, you can visit this website for more details <a href ="https://neumorphism.io/#e0e0e0">here</a></p>
 
 ## **3. Benefits**
 <ul>
@@ -30,7 +31,7 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-sig/
 <p> This is the library reference <a href = "https://gitee.com/openharmony-sig/Neumorphism">Here</a> </p>
 
 ## **4. Typical Use Cases**
-The library <span style="color: purple;">Neomorphism</span>, can be implemented in most of the common used application component to achieve the neumorphic effect.
+The library <span style="color: purple;">Neumorphism</span>, can be implemented in most of the common used application component to achieve the neumorphic effect.
 Below are some of the examples to be highlighted.
 
 <div align="center">
