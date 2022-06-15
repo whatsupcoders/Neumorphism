@@ -643,7 +643,7 @@ That's it by doing this we will get the below Neumorphic Switcher design.
 <img src="assets/switchdesign.PNG" width="" height="">
 <hr>
 
-## **8. Examples**
+## **9. Examples**
 In this section, we can have a look at some of the examples where the Components of this library is put to use and the results which we can acheive.
 
 **Example1: Smart Watch**  
@@ -753,7 +753,7 @@ Usage:
 </p>
 <hr />    
   
-## **9. Conclusion**
+## **10. Conclusion**
 You can find the component implementation on HarmonyOS <a href ="https://gitee.com/openharmony-sig/Neumorphism"> here.</a>
 If you haven't tried this unique style of designing then give it a try. With that being said, designers have been coming up with new design ideas that expand on the concept of Neumorphism every day. I am excited to see the interesting components that you can create.
 
