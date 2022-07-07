@@ -4,12 +4,12 @@
 Neumorphism (aka neomorphism) is a relatively new design trend and a term that's gotten a good amount of buzz lately.
 It derives its name from skeuomorphism – a way of integrating real-world objects into user interface design.
 Well in order to understand Neumorphism let's understand what is Skeuomorphism and flat designs first.</br>
-<span style="color: purple;">Neumorphism</span> is a library draws from both skeuomorphism and flat design by pairing a monochromatic color palette with subtle shadows, while giving a sense of 3-dimensions in the form of buttons and other elements.
+<span style="color: purple;">Neumorphism</span> is a library that draws from both skeuomorphism and flat design by pairing a monochromatic color palette with subtle shadows, while giving a sense of 3-dimensions in the form of buttons and other elements.
 
 To get started right away, head on to [Gitee](https://gitee.com/openharmony-sig/Neumorphism)
 
 ## **2. How to achieve Neumorphism?**
-There are certain design principles to be followed in order to achieve Neumorphism and I have listed it below.
+There are certain design principles to be followed in order to achieve Neumorphism and I have listed them below.
  <ul><li>Light Color for Light Shadow.</li>
  <li>Mid color for Main background and Element color.</li>
  <li>Dark Color for Dark Shadow.</li></ul>
@@ -17,7 +17,7 @@ There are certain design principles to be followed in order to achieve Neumorphi
  <p>A pictorial representation in achieving Neumorphism.</p>
  <br />
  <img src="assets/neuomorphic.PNG" width="" height=""/>
- <p> The Neumorphism effect can be achieved by playing with the two shades as mentioned in the above images. Using the varying the positive and negative values we can achieve the depth and the dart shadows.</p>
+ <p> The Neumorphism effect can be achieved by playing with the two shades as mentioned in the above images. Using varying the positive and negative values we can achieve the depth and the dark shadows.</p>
  <p>If you would like to implement your own or custom Neumorphism color Scheme, you can visit this website for more details <a href ="https://neumorphism.io/#e0e0e0">here</a></p>
 
 ## **3. Benefits**
@@ -31,7 +31,7 @@ There are certain design principles to be followed in order to achieve Neumorphi
 <p> This is the library reference <a href = "https://gitee.com/openharmony-sig/Neumorphism">Here</a> </p>
 
 ## **4. Typical Use Cases**
-The library <span style="color: purple;">Neumorphism</span>, can be implemented in most of the common used application component to achieve the neumorphic effect.
+The library <span style="color: purple;">Neumorphism</span>, can be implemented in most of the commonly used application components to achieve the neuromorphic effect.
 Below are some of the examples to be highlighted.
 
 <div align="center">
